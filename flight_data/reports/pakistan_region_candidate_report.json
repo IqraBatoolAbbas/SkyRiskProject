@@ -1,0 +1,32 @@
+{
+  "source_file": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\reports\\adsbaero_oct20_22_test.json",
+  "output_file": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\processed\\pakistan_region_candidate_points_oct20_22.csv",
+  "date_range_requested": [
+    "2026-10-20",
+    "2026-10-21",
+    "2026-10-22"
+  ],
+  "source_flight_records": 888,
+  "flights_checked": 888,
+  "candidate_unique_flights": 888,
+  "candidate_points": 25608,
+  "valid_points_all_regions": 110141,
+  "candidate_dates_utc": [
+    "2026-10-20",
+    "2026-10-21",
+    "2026-10-22"
+  ],
+  "approximate_bbox": {
+    "longitude_min": 60.0,
+    "longitude_max": 78.0,
+    "latitude_min": 23.0,
+    "latitude_max": 38.0
+  },
+  "boundary_warning": "This bounding box is only a preliminary geographic filter. It is not an official Pakistan FIR boundary and does not prove that a point belongs to Pakistan airspace.",
+  "counts": {
+    "flights_checked": 888,
+    "valid_points_all_regions": 110141,
+    "candidate_points": 25608,
+    "flights_with_candidate_points": 888
+  }
+}

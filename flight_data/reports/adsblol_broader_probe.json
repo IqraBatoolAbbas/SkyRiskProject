@@ -1,0 +1,62 @@
+{
+  "source": "ADSB.lol live API",
+  "checked_at_utc": "2026-10-23T11:27:23.117369+00:00",
+  "purpose": "small multi-location live coverage probe",
+  "results": [
+    {
+      "location": "Lahore",
+      "url": "https://api.adsb.lol/v2/point/31.5204/74.3587/100",
+      "result": "success",
+      "total_reported": 4,
+      "aircraft_returned": 4,
+      "sample": [
+        {
+          "hex": "80161a",
+          "callsign": "IGO65LP ",
+          "latitude": 30.154771,
+          "longitude": 75.00943,
+          "altitude": 35250,
+          "ground_speed": 436.4,
+          "track": 191.23,
+          "position_age_seconds": 0.27
+        },
+        {
+          "hex": "152039",
+          "callsign": "AFL583  ",
+          "latitude": 31.019165,
+          "longitude": 75.775344,
+          "altitude": 35975,
+          "ground_speed": 424.9,
+          "track": 291.25,
+          "position_age_seconds": 0.0
+        },
+        {
+          "hex": "8014c1",
+          "callsign": "IGO6041 ",
+          "latitude": 32.23732,
+          "longitude": 75.827472,
+          "altitude": 29000,
+          "ground_speed": 473.7,
+          "track": 152.46,
+          "position_age_seconds": 0.436
+        }
+      ]
+    },
+    {
+      "location": "Karachi",
+      "url": "https://api.adsb.lol/v2/point/24.8607/67.0011/100",
+      "result": "success",
+      "total_reported": 0,
+      "aircraft_returned": 0,
+      "sample": []
+    },
+    {
+      "location": "Islamabad",
+      "url": "https://api.adsb.lol/v2/point/33.6844/73.0479/100",
+      "result": "success",
+      "total_reported": 0,
+      "aircraft_returned": 0,
+      "sample": []
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "study_window_start_utc": "2026-10-10T00:00:00+00:00",
+  "study_window_end_utc_exclusive": "2026-10-16T00:00:00+00:00",
+  "trajectory_points_inside_pakistan": 14285,
+  "trajectory_flights": 1520,
+  "trajectory_segments": 2310,
+  "kp_rows": 14285,
+  "kp_unmatched_rows": 11127,
+  "weather_reference_rows": 144,
+  "weather_trajectory_joined": false,
+  "trajectory_quality_warning_rows": 111,
+  "space_weather_warning_rows": 11127,
+  "swips_quality_time_matches": 11132,
+  "notes": [
+    "Weather is retained as a documented Pakistan reference grid, not joined to trajectory points because a single grid point is not a defensible spatial match for every flight point.",
+    "Kp is a global geomagnetic indicator and is not presented as a direct aviation hazard limit.",
+    "SWiPS quality fields were time-matched only where files existed; no SWiPS velocity-derived hazard indicator was created because the checked variable metadata do not establish units for the combined velocity vectors."
+  ]
+}

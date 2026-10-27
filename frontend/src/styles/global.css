@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+html {
+  background: var(--bg);
+}
+
+body {
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--text);
+  background:
+    radial-gradient(1200px 500px at 80% -10%, rgba(100, 139, 255, 0.12), transparent 50%),
+    radial-gradient(900px 420px at -10% 20%, rgba(53, 199, 232, 0.08), transparent 46%),
+    var(--bg);
+  letter-spacing: 0.01em;
+}
+
+html[data-grid='on'] body {
+  background-image:
+    linear-gradient(rgba(37, 54, 80, 0.28) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(37, 54, 80, 0.28) 1px, transparent 1px),
+    radial-gradient(1200px 500px at 80% -10%, rgba(100, 139, 255, 0.12), transparent 50%),
+    radial-gradient(900px 420px at -10% 20%, rgba(53, 199, 232, 0.08), transparent 46%);
+  background-size: 48px 48px, 48px 48px, auto, auto;
+}
+
+#root {
+  width: 100%;
+  min-height: 100svh;
+  text-align: initial;
+  border: 0;
+  display: block;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+a {
+  color: var(--cyan);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7de4f6;
+}
+
+:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 2px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .radar-sweep,
+  .radar-pulse,
+  .hero-plane {
+    animation: none !important;
+  }
+}

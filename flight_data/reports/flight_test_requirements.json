@@ -1,0 +1,99 @@
+{
+  "purpose": "Define preliminary tests for matching flight trajectories against selected NOTAM records.",
+  "source_report": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\reports\\notam_requirements_report.json",
+  "read_only": true,
+  "required_flight_fields": [
+    "timestamp",
+    "latitude",
+    "longitude",
+    "altitude",
+    "ground_speed",
+    "track_or_heading",
+    "flight_or_aircraft_identifier"
+  ],
+  "notam_record_count": 33,
+  "location_codes_in_report": {
+    "OPBW": 1,
+    "OPDG": 1,
+    "OPGW": 2,
+    "OPIS": 2,
+    "OPKC": 3,
+    "OPKE": 1,
+    "OPKR": 8,
+    "OPLR": 5,
+    "OPMJ": 1,
+    "OPMT": 1,
+    "OPNH": 2,
+    "OPPS": 1,
+    "OPSD": 1,
+    "OPSK": 1,
+    "OPSS": 1,
+    "OPST": 1,
+    "OPTU": 1
+  },
+  "matched_test_count": 3,
+  "unmatched_test_count": 0,
+  "tests": [
+    {
+      "test_id": "RUNWAY_RESTRICTION_OPKC",
+      "location_code": "OPKC",
+      "notam_number": "A0541/26",
+      "purpose": "Test airport-area trajectory matching for a runway restriction.",
+      "required_checks": [
+        "flight timestamp overlaps NOTAM effective window",
+        "aircraft position is near the airport",
+        "flight track and altitude are available if possible"
+      ],
+      "match_status": "FOUND_IN_REPORT",
+      "notam_status": "active",
+      "effective_start": "2026-09-23T13:00:00+05:00",
+      "effective_end": "2026-11-06T17:00:00+05:00",
+      "notam_text": "RWY 25L/07R NOT AVBL EXC SUNDAY/HOLIDAYS DUE TO \r\nPREVENTIVE MAINT OF AIRFIELD LIGHTING SYSTEM. \r\nPILOTS TO EXER CTN",
+      "trajectory_data_available": "NOT_CHECKED",
+      "operational_applicability": "UNKNOWN"
+    },
+    {
+      "test_id": "RUNWAY_CLOSURE_OPSD",
+      "location_code": "OPSD",
+      "notam_number": "A0596/26",
+      "purpose": "Test airport-area trajectory matching for a runway closure.",
+      "required_checks": [
+        "flight timestamp overlaps NOTAM effective window",
+        "aircraft position is near the airport",
+        "do not assume the aircraft used the closed runway"
+      ],
+      "match_status": "FOUND_IN_REPORT",
+      "notam_status": "active",
+      "effective_start": "2026-10-20T10:00:00+05:00",
+      "effective_end": "2026-11-03T16:00:00+05:00",
+      "notam_text": "SRY RWY 14L/32R CLSD DUE WIP (PATCH WORK ON BOTH ENDS)\r\nRWY AVBL FOR FLT OPS IN CASE OF CONTIGENCY SUBJ ONE HR\r\nPRIOR CDN WITH ATC",
+      "trajectory_data_available": "NOT_CHECKED",
+      "operational_applicability": "UNKNOWN"
+    },
+    {
+      "test_id": "SURVEILLANCE_OUTAGE_OPKR",
+      "location_code": "OPKR",
+      "notam_number": "A0595/26",
+      "purpose": "Identify available trajectory data during a surveillance outage.",
+      "required_checks": [
+        "flight timestamp overlaps NOTAM effective window",
+        "check timestamp gaps and position availability",
+        "do not treat missing ADS-B points as proof of no flight"
+      ],
+      "match_status": "FOUND_IN_REPORT",
+      "notam_status": "active",
+      "effective_start": "2026-10-19T19:10:00+05:00",
+      "effective_end": "2026-11-04T04:59:00+05:00",
+      "notam_text": "LAKPASS MSSR NOT AVBL WI 250NM AROUND LAKPASS \r\nDUE OPR REASON. DRG THE PERIOD ADS-B DATA OF \r\nLAKPASS AND MSSR/ADS-B DATA OF OTHER STATIONS \r\nWILL REMAIN AVBL AT LAHORE AND KARACHI ACC.\r\nNON-RADAR PROCEDURAL CONTROL WILL BE PROVIDED TO \r\nNON ADS-B EQUIPPED ACFT IN AREAS WITH AFFECTED\r\nSURVEILLANCE COVERAGE.",
+      "trajectory_data_available": "NOT_CHECKED",
+      "operational_applicability": "UNKNOWN"
+    }
+  ],
+  "unmatched_tests": [],
+  "limitations": [
+    "This script does not download or inspect flight trajectories.",
+    "A nearby aircraft position does not prove runway usage.",
+    "A NOTAM match does not by itself prove operational impact.",
+    "Missing ADS-B observations do not prove no aircraft was present."
+  ]
+}

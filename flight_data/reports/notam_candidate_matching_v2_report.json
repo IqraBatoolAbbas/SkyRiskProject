@@ -1,0 +1,15 @@
+{
+  "purpose": "Generate temporal candidates without falsely asserting spatial applicability or operational impact.",
+  "source_trajectory_file": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\processed\\pakistan_region_candidate_points_oct20_22.csv",
+  "source_notam_file": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\reports\\notam_matching_inspection.json",
+  "trajectory_points_read": 25608,
+  "points_without_valid_timestamp": 0,
+  "unique_flights_in_input": 888,
+  "notam_records_with_valid_effective_times": 33,
+  "temporal_candidate_rows_written": 651850,
+  "unique_notam_location_pairs_with_temporal_candidates": 27,
+  "spatial_applicability": "NOT_ASSESSED",
+  "operational_impact": "NOT_ESTABLISHED",
+  "warning": "Temporal overlap does not prove a flight was affected. Airport, route, airspace geometry, aircraft restrictions, exceptions and actual operational context require separate validation. Source records are not independently verified by this script.",
+  "output_csv": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\processed\\notam_candidate_matches_v2.csv"
+}

@@ -1,0 +1,94 @@
+{
+  "source": "ADSB.lol historical archive",
+  "checked_at_utc": "2026-10-23T11:21:57.744238+00:00",
+  "check_type": "release_metadata_only",
+  "result": "success",
+  "releases_found": 5,
+  "releases": [
+    {
+      "tag": "v2026.10.22-planes-readsb-staging-0",
+      "published_at": "2026-10-23T05:04:34Z",
+      "assets": [
+        {
+          "name": "v2026.10.22-planes-readsb-staging-0.tar.aa",
+          "size_bytes": 2000000000,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.22-planes-readsb-staging-0/v2026.10.22-planes-readsb-staging-0.tar.aa"
+        },
+        {
+          "name": "v2026.10.22-planes-readsb-staging-0.tar.ab",
+          "size_bytes": 2000000000,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.22-planes-readsb-staging-0/v2026.10.22-planes-readsb-staging-0.tar.ab"
+        },
+        {
+          "name": "v2026.10.22-planes-readsb-staging-0.tar.ac",
+          "size_bytes": 60940288,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.22-planes-readsb-staging-0/v2026.10.22-planes-readsb-staging-0.tar.ac"
+        }
+      ]
+    },
+    {
+      "tag": "v2026.10.22-planes-readsb-prod-0",
+      "published_at": "2026-10-23T03:26:51Z",
+      "assets": [
+        {
+          "name": "v2026.10.22-planes-readsb-prod-0.tar.aa",
+          "size_bytes": 2000000000,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.22-planes-readsb-prod-0/v2026.10.22-planes-readsb-prod-0.tar.aa"
+        },
+        {
+          "name": "v2026.10.22-planes-readsb-prod-0.tar.ab",
+          "size_bytes": 2000000000,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.22-planes-readsb-prod-0/v2026.10.22-planes-readsb-prod-0.tar.ab"
+        },
+        {
+          "name": "v2026.10.22-planes-readsb-prod-0.tar.ac",
+          "size_bytes": 61022208,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.22-planes-readsb-prod-0/v2026.10.22-planes-readsb-prod-0.tar.ac"
+        }
+      ]
+    },
+    {
+      "tag": "v2026.10.22-planes-readsb-mlatonly-0",
+      "published_at": "2026-10-23T03:23:07Z",
+      "assets": [
+        {
+          "name": "v2026.10.22-planes-readsb-mlatonly-0.tar",
+          "size_bytes": 317391872,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.22-planes-readsb-mlatonly-0/v2026.10.22-planes-readsb-mlatonly-0.tar"
+        }
+      ]
+    },
+    {
+      "tag": "v2026.10.21-planes-readsb-staging-0",
+      "published_at": "2026-10-22T00:06:32Z",
+      "assets": [
+        {
+          "name": "v2026.10.21-planes-readsb-staging-0.tar.aa",
+          "size_bytes": 2000000000,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.21-planes-readsb-staging-0/v2026.10.21-planes-readsb-staging-0.tar.aa"
+        },
+        {
+          "name": "v2026.10.21-planes-readsb-staging-0.tar.ab",
+          "size_bytes": 1148389376,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.21-planes-readsb-staging-0/v2026.10.21-planes-readsb-staging-0.tar.ab"
+        }
+      ]
+    },
+    {
+      "tag": "v2026.10.21-planes-readsb-prod-0",
+      "published_at": "2026-10-22T03:26:09Z",
+      "assets": [
+        {
+          "name": "v2026.10.21-planes-readsb-prod-0.tar.aa",
+          "size_bytes": 2000000000,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.21-planes-readsb-prod-0/v2026.10.21-planes-readsb-prod-0.tar.aa"
+        },
+        {
+          "name": "v2026.10.21-planes-readsb-prod-0.tar.ab",
+          "size_bytes": 1977106944,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.21-planes-readsb-prod-0/v2026.10.21-planes-readsb-prod-0.tar.ab"
+        }
+      ]
+    }
+  ]
+}

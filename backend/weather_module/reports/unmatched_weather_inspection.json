@@ -1,0 +1,306 @@
+{
+  "input_file": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\backend\\weather_module\\processed\\flight_weather_matched_oct20_22.csv",
+  "total_rows": 25608,
+  "status_counts": {
+    "MATCHED_GRID_ESTIMATE_NOT_EXACT_FLIGHT_WEATHER": 25144,
+    "NO_GRID_HOUR_WITHIN_30_MIN": 464
+  },
+  "unmatched_by_utc_date": {
+    "2026-10-22": 464
+  },
+  "unmatched_by_utc_time": {
+    "23:59": 31,
+    "23:53": 22,
+    "23:50": 22,
+    "23:48": 21,
+    "23:55": 20,
+    "23:38": 20,
+    "23:35": 19,
+    "23:34": 19,
+    "23:37": 19,
+    "23:58": 18,
+    "23:51": 18,
+    "23:47": 17,
+    "23:56": 16,
+    "23:31": 16,
+    "23:49": 16,
+    "23:54": 16,
+    "23:52": 14,
+    "23:32": 14,
+    "23:40": 14,
+    "23:57": 13
+  },
+  "first_30_unmatched_examples": [
+    {
+      "flight_id": "710106:2026-10-22T23:58:01Z",
+      "timestamp_utc": "2026-10-22T23:58:01.180000+00:00",
+      "latitude": "24.378525",
+      "longitude": "61.266785",
+      "grid_latitude": "24.25",
+      "grid_longitude": "61.25",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "710106:2026-10-22T23:58:01Z",
+      "timestamp_utc": "2026-10-22T23:59:17.260000+00:00",
+      "latitude": "24.327129",
+      "longitude": "61.108082",
+      "grid_latitude": "24.25",
+      "grid_longitude": "61.25",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "710106:2026-10-22T23:58:01Z",
+      "timestamp_utc": "2026-10-22T23:59:36.650000+00:00",
+      "latitude": "24.314163",
+      "longitude": "61.068319",
+      "grid_latitude": "24.25",
+      "grid_longitude": "61.25",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "710106:2026-10-22T23:58:01Z",
+      "timestamp_utc": "2026-10-22T23:59:49.500000+00:00",
+      "latitude": "24.305466",
+      "longitude": "61.041565",
+      "grid_latitude": "24.25",
+      "grid_longitude": "61.25",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "7100c1:2026-10-22T23:53:54Z",
+      "timestamp_utc": "2026-10-22T23:53:54.790000+00:00",
+      "latitude": "24.320892",
+      "longitude": "61.088867",
+      "grid_latitude": "24.25",
+      "grid_longitude": "61.25",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "7100c1:2026-10-22T23:53:54Z",
+      "timestamp_utc": "2026-10-22T23:56:20.240000+00:00",
+      "latitude": "24.224528",
+      "longitude": "60.793572",
+      "grid_latitude": "24.25",
+      "grid_longitude": "60.75",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "7100c1:2026-10-22T23:53:54Z",
+      "timestamp_utc": "2026-10-22T23:58:07.430000+00:00",
+      "latitude": "24.153625",
+      "longitude": "60.577342",
+      "grid_latitude": "24.25",
+      "grid_longitude": "60.75",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "7100c1:2026-10-22T23:53:54Z",
+      "timestamp_utc": "2026-10-22T23:58:46.520000+00:00",
+      "latitude": "24.127839",
+      "longitude": "60.499118",
+      "grid_latitude": "24.25",
+      "grid_longitude": "60.25",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "7100c1:2026-10-22T23:53:54Z",
+      "timestamp_utc": "2026-10-22T23:59:05.640000+00:00",
+      "latitude": "24.115173",
+      "longitude": "60.460815",
+      "grid_latitude": "24.25",
+      "grid_longitude": "60.25",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "70c10c:2026-10-22T23:38:27Z",
+      "timestamp_utc": "2026-10-22T23:55:17.420000+00:00",
+      "latitude": "23.878691",
+      "longitude": "60.024529",
+      "grid_latitude": "23.75",
+      "grid_longitude": "60.25",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "70c10c:2026-10-22T23:38:27Z",
+      "timestamp_utc": "2026-10-22T23:56:08.120000+00:00",
+      "latitude": "23.899155",
+      "longitude": "60.154622",
+      "grid_latitude": "23.75",
+      "grid_longitude": "60.25",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "70c10c:2026-10-22T23:38:27Z",
+      "timestamp_utc": "2026-10-22T23:56:20.240000+00:00",
+      "latitude": "23.903922",
+      "longitude": "60.185075",
+      "grid_latitude": "23.75",
+      "grid_longitude": "60.25",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "70c10c:2026-10-22T23:38:27Z",
+      "timestamp_utc": "2026-10-22T23:57:35.910000+00:00",
+      "latitude": "23.934265",
+      "longitude": "60.380961",
+      "grid_latitude": "23.75",
+      "grid_longitude": "60.25",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "70c10c:2026-10-22T23:38:27Z",
+      "timestamp_utc": "2026-10-22T23:58:14.420000+00:00",
+      "latitude": "23.949869",
+      "longitude": "60.481965",
+      "grid_latitude": "23.75",
+      "grid_longitude": "60.25",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "70c10c:2026-10-22T23:38:27Z",
+      "timestamp_utc": "2026-10-22T23:58:46.150000+00:00",
+      "latitude": "23.962625",
+      "longitude": "60.56488",
+      "grid_latitude": "23.75",
+      "grid_longitude": "60.75",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "70c10c:2026-10-22T23:38:27Z",
+      "timestamp_utc": "2026-10-22T23:58:52.100000+00:00",
+      "latitude": "23.965139",
+      "longitude": "60.581256",
+      "grid_latitude": "23.75",
+      "grid_longitude": "60.75",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "70c10c:2026-10-22T23:38:27Z",
+      "timestamp_utc": "2026-10-22T23:59:23.500000+00:00",
+      "latitude": "23.977798",
+      "longitude": "60.664012",
+      "grid_latitude": "23.75",
+      "grid_longitude": "60.75",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "06a088:2026-10-22T23:35:27Z",
+      "timestamp_utc": "2026-10-22T23:35:27.700000+00:00",
+      "latitude": "23.575836",
+      "longitude": "60.119934",
+      "grid_latitude": "23.75",
+      "grid_longitude": "60.25",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "06a0a7:2026-10-22T23:34:30Z",
+      "timestamp_utc": "2026-10-22T23:34:30.860000+00:00",
+      "latitude": "24.435177",
+      "longitude": "61.699685",
+      "grid_latitude": "24.25",
+      "grid_longitude": "61.75",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "06a0a7:2026-10-22T23:34:30Z",
+      "timestamp_utc": "2026-10-22T23:34:45.790000+00:00",
+      "latitude": "24.432175",
+      "longitude": "61.667887",
+      "grid_latitude": "24.25",
+      "grid_longitude": "61.75",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "06a0a7:2026-10-22T23:34:30Z",
+      "timestamp_utc": "2026-10-22T23:35:14.940000+00:00",
+      "latitude": "24.426407",
+      "longitude": "61.607564",
+      "grid_latitude": "24.25",
+      "grid_longitude": "61.75",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "06a0a7:2026-10-22T23:34:30Z",
+      "timestamp_utc": "2026-10-22T23:36:25.230000+00:00",
+      "latitude": "24.412366",
+      "longitude": "61.461095",
+      "grid_latitude": "24.25",
+      "grid_longitude": "61.25",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "06a0a7:2026-10-22T23:34:30Z",
+      "timestamp_utc": "2026-10-22T23:37:22.730000+00:00",
+      "latitude": "24.400169",
+      "longitude": "61.341178",
+      "grid_latitude": "24.25",
+      "grid_longitude": "61.25",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "06a0a7:2026-10-22T23:34:30Z",
+      "timestamp_utc": "2026-10-22T23:37:31.370000+00:00",
+      "latitude": "24.39733",
+      "longitude": "61.322885",
+      "grid_latitude": "24.25",
+      "grid_longitude": "61.25",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "06a0a7:2026-10-22T23:34:30Z",
+      "timestamp_utc": "2026-10-22T23:38:23.460000+00:00",
+      "latitude": "24.375636",
+      "longitude": "61.215302",
+      "grid_latitude": "24.25",
+      "grid_longitude": "61.25",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "06a0a7:2026-10-22T23:34:30Z",
+      "timestamp_utc": "2026-10-22T23:39:41.790000+00:00",
+      "latitude": "24.342041",
+      "longitude": "61.054535",
+      "grid_latitude": "24.25",
+      "grid_longitude": "61.25",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "06a0a7:2026-10-22T23:34:30Z",
+      "timestamp_utc": "2026-10-22T23:41:44.290000+00:00",
+      "latitude": "24.288986",
+      "longitude": "60.802002",
+      "grid_latitude": "24.25",
+      "grid_longitude": "60.75",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "06a0a7:2026-10-22T23:34:30Z",
+      "timestamp_utc": "2026-10-22T23:44:10.370000+00:00",
+      "latitude": "24.225723",
+      "longitude": "60.503591",
+      "grid_latitude": "24.25",
+      "grid_longitude": "60.75",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "06a0a7:2026-10-22T23:34:30Z",
+      "timestamp_utc": "2026-10-22T23:46:32.100000+00:00",
+      "latitude": "24.164612",
+      "longitude": "60.217896",
+      "grid_latitude": "24.25",
+      "grid_longitude": "60.25",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    },
+    {
+      "flight_id": "06a0a7:2026-10-22T23:34:30Z",
+      "timestamp_utc": "2026-10-22T23:47:16.880000+00:00",
+      "latitude": "24.145389",
+      "longitude": "60.128744",
+      "grid_latitude": "24.25",
+      "grid_longitude": "60.25",
+      "status": "NO_GRID_HOUR_WITHIN_30_MIN"
+    }
+  ],
+  "note": "This report diagnoses unmatched records only; it does not change or fabricate weather values."
+}

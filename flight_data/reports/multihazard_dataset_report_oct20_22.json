@@ -1,0 +1,38 @@
+{
+  "project": "SkyRisk Auditor",
+  "report_type": "preliminary_multihazard_integration",
+  "generated_at_utc": "2026-10-23T16:30:59.113701+00:00",
+  "input_files": {
+    "flight_weather_space_weather": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\backend\\weather_module\\processed\\combined_hazard_coverage_audit_oct20_22.csv",
+    "notam_candidates": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\processed\\notam_spatial_candidates_oct20_22.csv"
+  },
+  "output_file": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\processed\\multihazard_dataset_oct20_22.csv",
+  "counts": {
+    "flight_hazard_rows": 25608,
+    "unique_flight_point_keys": 25608,
+    "notam_candidate_rows": 6,
+    "output_rows": 25608,
+    "exact_point_candidate_links": 6,
+    "notam_rows_without_exact_point_link": 0
+  },
+  "coverage_status_counts": {
+    "BOTH_MATCHED": 24153,
+    "NEITHER_MATCHED": 464,
+    "WEATHER_ONLY": 991
+  },
+  "notam_status_counts": {
+    "NO_NOTAM_CANDIDATE_FOR_FLIGHT": 25553,
+    "NO_EXACT_POINT_CANDIDATE_LINK": 52,
+    "UNCONFIRMED_NOTAM_CANDIDATE": 3
+  },
+  "limitations": [
+    "This step does not calculate a risk score.",
+    "Weather values are grid estimates, not exact aircraft-local observations.",
+    "Weather variables are not cruise-altitude measurements.",
+    "Kp is a global space-weather index, not direct evidence of flight impact.",
+    "NOTAM candidates are not confirmed operational impacts.",
+    "A missing NOTAM candidate does not prove that no NOTAM applies.",
+    "Only exact flight ID and timestamp matches are linked.",
+    "Original input files are not modified."
+  ]
+}

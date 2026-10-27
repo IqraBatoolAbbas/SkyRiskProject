@@ -1,0 +1,11 @@
+{
+  "input_csv": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\processed\\notam_temporal_candidate_matches_oct20_22.csv",
+  "summary_csv": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\reports\\notam_temporal_match_summary.csv",
+  "temporal_match_rows_read": 651850,
+  "unique_notam_ids_in_matches": 23,
+  "unique_point_notam_pairs": 549418,
+  "method": "Deduplicate and summarize existing temporal matches.",
+  "spatial_applicability": "UNKNOWN",
+  "operational_impact": "UNKNOWN",
+  "warning": "These counts measure timestamp overlap only. They do not prove that a flight used the affected airport, runway, facility, or airspace. NOTAM status and applicability require separate interpretation."
+}

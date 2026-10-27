@@ -1,0 +1,25 @@
+﻿flight_id,callsign,point_timestamp_utc,notam_number,notam_location,distance_to_airport_km,existing_decision,screening_result,notam_text,notam_category,notam_status,notam_effective_start,notam_effective_end,notam_source,text_indicators,decision_reason,evidence_note
+7609ef:2026-10-20T23:16:32Z,FJL745,2026-10-21T00:06:38.160000+00:00,A0529/26,OPGW,22.698,UNCONFIRMED_APPLICABILITY,POTENTIAL_RISK_UNCONFIRMED,"LAND AD OPS HR AT GWADAR INTL AIRPORT ARE AS FLW
+MON BTN 0915-1145
+TUE BTN 0230-0430 0730-0915
+THU BTN 0915-1145
+SUN BTN 0500-0830
+24 HR PRIOR CDN IS REQUIRED FOR NON-SKED FLT
+(CIVIL/MILITARY) OR FLT OPR BEYOND AD OPS HR","{""code"": ""OTHER"", ""label"": ""Other"", ""description"": ""Everything the rules do not place""}",active,2026-09-18T14:25:00+05:00,2026-12-30T16:45:00+05:00,NOTAC,OPERATING_HOURS,"Time overlaps, but airport/airspace applicability and operational impact have not been established.",Text/category indicators are screening clues only. Proximity and time overlap do not establish operational impact.
+7609ef:2026-10-20T23:16:32Z,FJL745,2026-10-21T00:06:38.160000+00:00,A0597/26,OPGW,22.698,UNCONFIRMED_APPLICABILITY,POTENTIAL_RISK_UNCONFIRMED,DVOR IDENT 'GW' FREQ 112.7 MHZ U/S DUE TECR,"{""code"": ""NAVAID"", ""label"": ""Navaid"", ""description"": ""Navigation aids and instrument landing systems""}",active,2026-10-20T14:21:00+05:00,2026-11-06T04:59:00+05:00,NOTAC,NAVIGATION_AID,"Time overlaps, but airport/airspace applicability and operational impact have not been established.",Text/category indicators are screening clues only. Proximity and time overlap do not establish operational impact.
+6832d7:2026-10-20T19:49:46Z,UPEM030,2026-10-20T20:44:20.880000+00:00,A0529/26,OPGW,22.025,UNCONFIRMED_APPLICABILITY,POTENTIAL_RISK_UNCONFIRMED,"LAND AD OPS HR AT GWADAR INTL AIRPORT ARE AS FLW
+MON BTN 0915-1145
+TUE BTN 0230-0430 0730-0915
+THU BTN 0915-1145
+SUN BTN 0500-0830
+24 HR PRIOR CDN IS REQUIRED FOR NON-SKED FLT
+(CIVIL/MILITARY) OR FLT OPR BEYOND AD OPS HR","{""code"": ""OTHER"", ""label"": ""Other"", ""description"": ""Everything the rules do not place""}",active,2026-09-18T14:25:00+05:00,2026-12-30T16:45:00+05:00,NOTAC,OPERATING_HOURS,"Time overlaps, but airport/airspace applicability and operational impact have not been established.",Text/category indicators are screening clues only. Proximity and time overlap do not establish operational impact.
+6832d7:2026-10-20T19:49:46Z,UPEM030,2026-10-20T20:44:20.880000+00:00,A0597/26,OPGW,22.025,UNCONFIRMED_APPLICABILITY,POTENTIAL_RISK_UNCONFIRMED,DVOR IDENT 'GW' FREQ 112.7 MHZ U/S DUE TECR,"{""code"": ""NAVAID"", ""label"": ""Navaid"", ""description"": ""Navigation aids and instrument landing systems""}",active,2026-10-20T14:21:00+05:00,2026-11-06T04:59:00+05:00,NOTAC,NAVIGATION_AID,"Time overlaps, but airport/airspace applicability and operational impact have not been established.",Text/category indicators are screening clues only. Proximity and time overlap do not establish operational impact.
+6832d7:2026-10-20T19:49:46Z,UPEM030,2026-10-20T20:44:41.300000+00:00,A0529/26,OPGW,17.841,UNCONFIRMED_APPLICABILITY,POTENTIAL_RISK_UNCONFIRMED,"LAND AD OPS HR AT GWADAR INTL AIRPORT ARE AS FLW
+MON BTN 0915-1145
+TUE BTN 0230-0430 0730-0915
+THU BTN 0915-1145
+SUN BTN 0500-0830
+24 HR PRIOR CDN IS REQUIRED FOR NON-SKED FLT
+(CIVIL/MILITARY) OR FLT OPR BEYOND AD OPS HR","{""code"": ""OTHER"", ""label"": ""Other"", ""description"": ""Everything the rules do not place""}",active,2026-09-18T14:25:00+05:00,2026-12-30T16:45:00+05:00,NOTAC,OPERATING_HOURS,"Time overlaps, but airport/airspace applicability and operational impact have not been established.",Text/category indicators are screening clues only. Proximity and time overlap do not establish operational impact.
+6832d7:2026-10-20T19:49:46Z,UPEM030,2026-10-20T20:44:41.300000+00:00,A0597/26,OPGW,17.841,UNCONFIRMED_APPLICABILITY,POTENTIAL_RISK_UNCONFIRMED,DVOR IDENT 'GW' FREQ 112.7 MHZ U/S DUE TECR,"{""code"": ""NAVAID"", ""label"": ""Navaid"", ""description"": ""Navigation aids and instrument landing systems""}",active,2026-10-20T14:21:00+05:00,2026-11-06T04:59:00+05:00,NOTAC,NAVIGATION_AID,"Time overlaps, but airport/airspace applicability and operational impact have not been established.",Text/category indicators are screening clues only. Proximity and time overlap do not establish operational impact.

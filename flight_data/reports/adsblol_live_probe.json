@@ -1,0 +1,10 @@
+{
+  "source": "ADSB.lol live API",
+  "url": "https://api.adsb.lol/v2/point/30.3753/69.3451/250",
+  "checked_at_utc": "2026-10-23T11:23:18.581737+00:00",
+  "purpose": "small live coverage test",
+  "result": "success",
+  "total_reported": 0,
+  "aircraft_returned": 0,
+  "sample": []
+}

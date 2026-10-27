@@ -1,0 +1,15 @@
+dataset,field,meaning,unit,required,validation_rule,missing_data_policy
+trajectory,flight_id,Stable flight identifier,,yes,Non-empty within each record,Reject rows without a key
+trajectory,segment_index,Trajectory segment number,,yes,Non-negative integer,Reject rows without a key
+trajectory,point_index,Observed point order within a segment,,yes,Non-negative integer and unique in composite key,Reject duplicate or missing key rows
+trajectory,timestamp_utc,Observation time in UTC,ISO-8601 UTC,yes,Parse as timezone-aware UTC and require monotonic order within segment,Flag invalid timestamps
+trajectory,longitude,Longitude,WGS84 degrees,yes,-180 <= value <= 180,Flag invalid coordinates
+trajectory,latitude,Latitude,WGS84 degrees,yes,-90 <= value <= 90,Flag invalid coordinates
+trajectory,altitude_ft,Observed altitude,feet,preferred,Numeric; source units must be documented,Retain missing values and report them
+weather,timestamp_utc,Weather observation or model time,ISO-8601 UTC,yes,Timezone-aware UTC,Do not fabricate unmatched observations
+weather,latitude,Grid or observation latitude,WGS84 degrees,preferred,Coordinate range check,Report spatial coverage
+weather,longitude,Grid or observation longitude,WGS84 degrees,preferred,Coordinate range check,Report spatial coverage
+space_weather,timestamp_utc,Space-weather observation time,ISO-8601 UTC,yes,Timezone-aware UTC,Do not replace missing Kp with zero
+space_weather,Kp,Kp index,dimensionless,preferred,Numeric range and source definition required,Retain missing values and report coverage
+notam,effective_from_utc,NOTAM effective start,ISO-8601 UTC,preferred,Parse as timezone-aware UTC,Do not infer unavailable history
+notam,effective_to_utc,NOTAM effective end,ISO-8601 UTC,preferred,End must not precede start,Report absent historical NOTAM source

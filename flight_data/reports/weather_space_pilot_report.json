@@ -1,0 +1,33 @@
+{
+  "input_files": {
+    "trajectory": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\historical_reuse\\processed\\historical_trajectory_kp_integrated.csv",
+    "kp": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\historical_reuse\\processed\\noaa_kp_2026-10-10_2026-10-15.csv",
+    "weather": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\historical_reuse\\processed\\open_meteo_reference_hourly.csv"
+  },
+  "output_csv": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\processed\\weather_space_pilot.csv",
+  "trajectory_rows": 14285,
+  "kp_source_rows": 8,
+  "weather_reference_rows": 144,
+  "invalid_flight_timestamps": 0,
+  "kp_matched_rows": 3261,
+  "kp_unmatched_rows": 11024,
+  "weather_reference_time_matched_rows": 14244,
+  "weather_reference_unmatched_rows": 41,
+  "kp_match_rate_percent": 22.83,
+  "weather_reference_time_match_rate_percent": 99.71,
+  "kp_time_gap_max_minutes": 89.95,
+  "weather_time_gap_max_minutes": 30.0,
+  "kp_match_policy": "Nearest observation, absolute gap <= 90 minutes",
+  "weather_match_policy": "Nearest hourly reference observation, gap <= 30 minutes",
+  "weather_spatial_status": "REFERENCE_ONLY_NOT_MATCHED_TO_FLIGHT_COORDINATES",
+  "validated_flight_local_weather_created": false,
+  "validated_hazard_scores_created": false,
+  "limitations": [
+    "Nearest-time Kp association is not an aviation impact assessment.",
+    "Kp is a global geomagnetic activity index, not a local aircraft hazard measurement.",
+    "Weather observations are from one reference grid location.",
+    "Weather time matches do not establish spatial or flight-local weather applicability.",
+    "No risk score or operational impact is validated by this pilot.",
+    "Missing observations remain blank and are not replaced with zero."
+  ]
+}

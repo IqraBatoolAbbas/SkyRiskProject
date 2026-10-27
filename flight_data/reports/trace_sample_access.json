@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://samples.adsbexchange.com/traces/",
+    "error": "<urlopen error [Errno 11002] getaddrinfo failed>"
+  },
+  {
+    "url": "https://samples.adsbexchange.com/readsb-hist/2026/10/01/",
+    "error": "<urlopen error [Errno 11002] getaddrinfo failed>"
+  }
+]

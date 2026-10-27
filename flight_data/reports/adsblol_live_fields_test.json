@@ -1,0 +1,240 @@
+{
+  "source": "ADSB.lol live API",
+  "api_base": "https://api.adsb.lol/v2/point",
+  "test_time_utc": "2026-10-23T12:11:30.150720+00:00",
+  "historical_data_tested": false,
+  "locations": {
+    "Lahore": {
+      "query_url": "https://api.adsb.lol/v2/point/31.5216/74.4036/100",
+      "reference_coordinates": {
+        "lat": 31.5216,
+        "lon": 74.4036,
+        "radius_nm": 100
+      },
+      "request_success": true,
+      "reported_total": 4,
+      "aircraft_returned": 0,
+      "field_availability": {
+        "timestamp": {
+          "available_count": 0,
+          "aircraft_count": 0,
+          "coverage_percent": null,
+          "source_keys": [
+            "now",
+            "seen_pos",
+            "seen"
+          ]
+        },
+        "latitude": {
+          "available_count": 0,
+          "aircraft_count": 0,
+          "coverage_percent": null,
+          "source_keys": [
+            "lat"
+          ]
+        },
+        "longitude": {
+          "available_count": 0,
+          "aircraft_count": 0,
+          "coverage_percent": null,
+          "source_keys": [
+            "lon"
+          ]
+        },
+        "altitude": {
+          "available_count": 0,
+          "aircraft_count": 0,
+          "coverage_percent": null,
+          "source_keys": [
+            "alt_baro",
+            "alt_geom"
+          ]
+        },
+        "ground_speed": {
+          "available_count": 0,
+          "aircraft_count": 0,
+          "coverage_percent": null,
+          "source_keys": [
+            "gs"
+          ]
+        },
+        "track_or_heading": {
+          "available_count": 0,
+          "aircraft_count": 0,
+          "coverage_percent": null,
+          "source_keys": [
+            "track"
+          ]
+        },
+        "flight_or_aircraft_identifier": {
+          "available_count": 0,
+          "aircraft_count": 0,
+          "coverage_percent": null,
+          "source_keys": [
+            "flight",
+            "hex"
+          ]
+        }
+      },
+      "sample_aircraft": [],
+      "error": null
+    },
+    "Karachi": {
+      "query_url": "https://api.adsb.lol/v2/point/24.9065/67.1608/100",
+      "reference_coordinates": {
+        "lat": 24.9065,
+        "lon": 67.1608,
+        "radius_nm": 100
+      },
+      "request_success": true,
+      "reported_total": 0,
+      "aircraft_returned": 0,
+      "field_availability": {
+        "timestamp": {
+          "available_count": 0,
+          "aircraft_count": 0,
+          "coverage_percent": null,
+          "source_keys": [
+            "now",
+            "seen_pos",
+            "seen"
+          ]
+        },
+        "latitude": {
+          "available_count": 0,
+          "aircraft_count": 0,
+          "coverage_percent": null,
+          "source_keys": [
+            "lat"
+          ]
+        },
+        "longitude": {
+          "available_count": 0,
+          "aircraft_count": 0,
+          "coverage_percent": null,
+          "source_keys": [
+            "lon"
+          ]
+        },
+        "altitude": {
+          "available_count": 0,
+          "aircraft_count": 0,
+          "coverage_percent": null,
+          "source_keys": [
+            "alt_baro",
+            "alt_geom"
+          ]
+        },
+        "ground_speed": {
+          "available_count": 0,
+          "aircraft_count": 0,
+          "coverage_percent": null,
+          "source_keys": [
+            "gs"
+          ]
+        },
+        "track_or_heading": {
+          "available_count": 0,
+          "aircraft_count": 0,
+          "coverage_percent": null,
+          "source_keys": [
+            "track"
+          ]
+        },
+        "flight_or_aircraft_identifier": {
+          "available_count": 0,
+          "aircraft_count": 0,
+          "coverage_percent": null,
+          "source_keys": [
+            "flight",
+            "hex"
+          ]
+        }
+      },
+      "sample_aircraft": [],
+      "error": null
+    },
+    "Islamabad": {
+      "query_url": "https://api.adsb.lol/v2/point/33.6167/73.0992/100",
+      "reference_coordinates": {
+        "lat": 33.6167,
+        "lon": 73.0992,
+        "radius_nm": 100
+      },
+      "request_success": true,
+      "reported_total": 0,
+      "aircraft_returned": 0,
+      "field_availability": {
+        "timestamp": {
+          "available_count": 0,
+          "aircraft_count": 0,
+          "coverage_percent": null,
+          "source_keys": [
+            "now",
+            "seen_pos",
+            "seen"
+          ]
+        },
+        "latitude": {
+          "available_count": 0,
+          "aircraft_count": 0,
+          "coverage_percent": null,
+          "source_keys": [
+            "lat"
+          ]
+        },
+        "longitude": {
+          "available_count": 0,
+          "aircraft_count": 0,
+          "coverage_percent": null,
+          "source_keys": [
+            "lon"
+          ]
+        },
+        "altitude": {
+          "available_count": 0,
+          "aircraft_count": 0,
+          "coverage_percent": null,
+          "source_keys": [
+            "alt_baro",
+            "alt_geom"
+          ]
+        },
+        "ground_speed": {
+          "available_count": 0,
+          "aircraft_count": 0,
+          "coverage_percent": null,
+          "source_keys": [
+            "gs"
+          ]
+        },
+        "track_or_heading": {
+          "available_count": 0,
+          "aircraft_count": 0,
+          "coverage_percent": null,
+          "source_keys": [
+            "track"
+          ]
+        },
+        "flight_or_aircraft_identifier": {
+          "available_count": 0,
+          "aircraft_count": 0,
+          "coverage_percent": null,
+          "source_keys": [
+            "flight",
+            "hex"
+          ]
+        }
+      },
+      "sample_aircraft": [],
+      "error": null
+    }
+  },
+  "limitations": [
+    "This tests a live snapshot, not historical trajectories.",
+    "A returned aircraft is not automatically a Pakistan flight.",
+    "Position near an airport does not prove runway usage.",
+    "No returned aircraft does not prove no flights occurred.",
+    "API coverage may vary by location and time."
+  ]
+}

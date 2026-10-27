@@ -1,0 +1,16 @@
+# Python environments
+**/.venv/
+**/venv/
+**/__pycache__/
+*.py[cod]
+
+# Secrets
+**/.env
+
+# Node dependencies
+**/node_modules/
+
+# Large model and datasets
+/backend/model/model.safetensors
+/flight_data/processed/notam_candidate_matches_v2.csv
+/flight_data/processed/notam_temporal_candidate_matches_oct20_22.csv

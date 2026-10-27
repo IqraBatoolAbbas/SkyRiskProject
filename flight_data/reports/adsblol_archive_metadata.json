@@ -1,0 +1,243 @@
+{
+  "checked_at_utc": "2026-10-23T12:21:20.407673+00:00",
+  "source": "https://api.github.com/repos/adsblol/globe_history/releases?per_page=10",
+  "releases_returned": 10,
+  "releases": [
+    {
+      "release_name": "v2026.10.22-planes-readsb-staging-0",
+      "tag_name": "v2026.10.22-planes-readsb-staging-0",
+      "published_at": "2026-10-23T05:04:34Z",
+      "release_url": "https://github.com/adsblol/globe_history_2026/releases/tag/v2026.10.22-planes-readsb-staging-0",
+      "assets": [
+        {
+          "name": "v2026.10.22-planes-readsb-staging-0.tar.aa",
+          "size_bytes": 2000000000,
+          "size_gb": 1.863,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.22-planes-readsb-staging-0/v2026.10.22-planes-readsb-staging-0.tar.aa",
+          "download_count": 21
+        },
+        {
+          "name": "v2026.10.22-planes-readsb-staging-0.tar.ab",
+          "size_bytes": 2000000000,
+          "size_gb": 1.863,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.22-planes-readsb-staging-0/v2026.10.22-planes-readsb-staging-0.tar.ab",
+          "download_count": 22
+        },
+        {
+          "name": "v2026.10.22-planes-readsb-staging-0.tar.ac",
+          "size_bytes": 60940288,
+          "size_gb": 0.057,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.22-planes-readsb-staging-0/v2026.10.22-planes-readsb-staging-0.tar.ac",
+          "download_count": 22
+        }
+      ]
+    },
+    {
+      "release_name": "v2026.10.22-planes-readsb-prod-0",
+      "tag_name": "v2026.10.22-planes-readsb-prod-0",
+      "published_at": "2026-10-23T03:26:51Z",
+      "release_url": "https://github.com/adsblol/globe_history_2026/releases/tag/v2026.10.22-planes-readsb-prod-0",
+      "assets": [
+        {
+          "name": "v2026.10.22-planes-readsb-prod-0.tar.aa",
+          "size_bytes": 2000000000,
+          "size_gb": 1.863,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.22-planes-readsb-prod-0/v2026.10.22-planes-readsb-prod-0.tar.aa",
+          "download_count": 482
+        },
+        {
+          "name": "v2026.10.22-planes-readsb-prod-0.tar.ab",
+          "size_bytes": 2000000000,
+          "size_gb": 1.863,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.22-planes-readsb-prod-0/v2026.10.22-planes-readsb-prod-0.tar.ab",
+          "download_count": 433
+        },
+        {
+          "name": "v2026.10.22-planes-readsb-prod-0.tar.ac",
+          "size_bytes": 61022208,
+          "size_gb": 0.057,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.22-planes-readsb-prod-0/v2026.10.22-planes-readsb-prod-0.tar.ac",
+          "download_count": 388
+        }
+      ]
+    },
+    {
+      "release_name": "v2026.10.22-planes-readsb-mlatonly-0",
+      "tag_name": "v2026.10.22-planes-readsb-mlatonly-0",
+      "published_at": "2026-10-23T03:23:07Z",
+      "release_url": "https://github.com/adsblol/globe_history_2026/releases/tag/v2026.10.22-planes-readsb-mlatonly-0",
+      "assets": [
+        {
+          "name": "v2026.10.22-planes-readsb-mlatonly-0.tar",
+          "size_bytes": 317391872,
+          "size_gb": 0.296,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.22-planes-readsb-mlatonly-0/v2026.10.22-planes-readsb-mlatonly-0.tar",
+          "download_count": 16
+        }
+      ]
+    },
+    {
+      "release_name": "v2026.10.21-planes-readsb-staging-0",
+      "tag_name": "v2026.10.21-planes-readsb-staging-0",
+      "published_at": "2026-10-22T00:06:32Z",
+      "release_url": "https://github.com/adsblol/globe_history_2026/releases/tag/v2026.10.21-planes-readsb-staging-0",
+      "assets": [
+        {
+          "name": "v2026.10.21-planes-readsb-staging-0.tar.aa",
+          "size_bytes": 2000000000,
+          "size_gb": 1.863,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.21-planes-readsb-staging-0/v2026.10.21-planes-readsb-staging-0.tar.aa",
+          "download_count": 82
+        },
+        {
+          "name": "v2026.10.21-planes-readsb-staging-0.tar.ab",
+          "size_bytes": 1148389376,
+          "size_gb": 1.07,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.21-planes-readsb-staging-0/v2026.10.21-planes-readsb-staging-0.tar.ab",
+          "download_count": 84
+        }
+      ]
+    },
+    {
+      "release_name": "v2026.10.21-planes-readsb-prod-0",
+      "tag_name": "v2026.10.21-planes-readsb-prod-0",
+      "published_at": "2026-10-22T03:26:09Z",
+      "release_url": "https://github.com/adsblol/globe_history_2026/releases/tag/v2026.10.21-planes-readsb-prod-0",
+      "assets": [
+        {
+          "name": "v2026.10.21-planes-readsb-prod-0.tar.aa",
+          "size_bytes": 2000000000,
+          "size_gb": 1.863,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.21-planes-readsb-prod-0/v2026.10.21-planes-readsb-prod-0.tar.aa",
+          "download_count": 1107
+        },
+        {
+          "name": "v2026.10.21-planes-readsb-prod-0.tar.ab",
+          "size_bytes": 1977106944,
+          "size_gb": 1.841,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.21-planes-readsb-prod-0/v2026.10.21-planes-readsb-prod-0.tar.ab",
+          "download_count": 976
+        }
+      ]
+    },
+    {
+      "release_name": "v2026.10.21-planes-readsb-mlatonly-0",
+      "tag_name": "v2026.10.21-planes-readsb-mlatonly-0",
+      "published_at": "2026-10-22T03:22:27Z",
+      "release_url": "https://github.com/adsblol/globe_history_2026/releases/tag/v2026.10.21-planes-readsb-mlatonly-0",
+      "assets": [
+        {
+          "name": "v2026.10.21-planes-readsb-mlatonly-0.tar",
+          "size_bytes": 292732928,
+          "size_gb": 0.273,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.21-planes-readsb-mlatonly-0/v2026.10.21-planes-readsb-mlatonly-0.tar",
+          "download_count": 26
+        }
+      ]
+    },
+    {
+      "release_name": "v2026.10.20-planes-readsb-staging-0",
+      "tag_name": "v2026.10.20-planes-readsb-staging-0",
+      "published_at": "2026-10-21T00:09:49Z",
+      "release_url": "https://github.com/adsblol/globe_history_2026/releases/tag/v2026.10.20-planes-readsb-staging-0",
+      "assets": [
+        {
+          "name": "v2026.10.20-planes-readsb-staging-0.tar.aa",
+          "size_bytes": 2000000000,
+          "size_gb": 1.863,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.20-planes-readsb-staging-0/v2026.10.20-planes-readsb-staging-0.tar.aa",
+          "download_count": 128
+        },
+        {
+          "name": "v2026.10.20-planes-readsb-staging-0.tar.ab",
+          "size_bytes": 1266545152,
+          "size_gb": 1.18,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.20-planes-readsb-staging-0/v2026.10.20-planes-readsb-staging-0.tar.ab",
+          "download_count": 115
+        },
+        {
+          "name": "v2026.10.20-planes-readsb-staging-0.tar.ac",
+          "size_bytes": 23073792,
+          "size_gb": 0.021,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.20-planes-readsb-staging-0/v2026.10.20-planes-readsb-staging-0.tar.ac",
+          "download_count": 52
+        }
+      ]
+    },
+    {
+      "release_name": "v2026.10.20-planes-readsb-prod-0",
+      "tag_name": "v2026.10.20-planes-readsb-prod-0",
+      "published_at": "2026-10-21T03:26:02Z",
+      "release_url": "https://github.com/adsblol/globe_history_2026/releases/tag/v2026.10.20-planes-readsb-prod-0",
+      "assets": [
+        {
+          "name": "v2026.10.20-planes-readsb-prod-0.tar.aa",
+          "size_bytes": 2000000000,
+          "size_gb": 1.863,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.20-planes-readsb-prod-0/v2026.10.20-planes-readsb-prod-0.tar.aa",
+          "download_count": 1386
+        },
+        {
+          "name": "v2026.10.20-planes-readsb-prod-0.tar.ab",
+          "size_bytes": 2000000000,
+          "size_gb": 1.863,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.20-planes-readsb-prod-0/v2026.10.20-planes-readsb-prod-0.tar.ab",
+          "download_count": 1198
+        },
+        {
+          "name": "v2026.10.20-planes-readsb-prod-0.tar.ac",
+          "size_bytes": 21636096,
+          "size_gb": 0.02,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.20-planes-readsb-prod-0/v2026.10.20-planes-readsb-prod-0.tar.ac",
+          "download_count": 1020
+        }
+      ]
+    },
+    {
+      "release_name": "v2026.10.20-planes-readsb-mlatonly-0",
+      "tag_name": "v2026.10.20-planes-readsb-mlatonly-0",
+      "published_at": "2026-10-21T03:22:27Z",
+      "release_url": "https://github.com/adsblol/globe_history_2026/releases/tag/v2026.10.20-planes-readsb-mlatonly-0",
+      "assets": [
+        {
+          "name": "v2026.10.20-planes-readsb-mlatonly-0.tar",
+          "size_bytes": 298603008,
+          "size_gb": 0.278,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.20-planes-readsb-mlatonly-0/v2026.10.20-planes-readsb-mlatonly-0.tar",
+          "download_count": 45
+        }
+      ]
+    },
+    {
+      "release_name": "v2026.10.19-planes-readsb-staging-0",
+      "tag_name": "v2026.10.19-planes-readsb-staging-0",
+      "published_at": "2026-10-20T00:02:46Z",
+      "release_url": "https://github.com/adsblol/globe_history_2026/releases/tag/v2026.10.19-planes-readsb-staging-0",
+      "assets": [
+        {
+          "name": "v2026.10.19-planes-readsb-staging-0.tar.aa",
+          "size_bytes": 2000000000,
+          "size_gb": 1.863,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.19-planes-readsb-staging-0/v2026.10.19-planes-readsb-staging-0.tar.aa",
+          "download_count": 164
+        },
+        {
+          "name": "v2026.10.19-planes-readsb-staging-0.tar.ab",
+          "size_bytes": 899545600,
+          "size_gb": 0.838,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.19-planes-readsb-staging-0/v2026.10.19-planes-readsb-staging-0.tar.ab",
+          "download_count": 146
+        },
+        {
+          "name": "v2026.10.19-planes-readsb-staging-0.tar.ac",
+          "size_bytes": 4936192,
+          "size_gb": 0.005,
+          "download_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.10.19-planes-readsb-staging-0/v2026.10.19-planes-readsb-staging-0.tar.ac",
+          "download_count": 108
+        }
+      ]
+    }
+  ],
+  "database_changed": false,
+  "archive_downloaded": false
+}

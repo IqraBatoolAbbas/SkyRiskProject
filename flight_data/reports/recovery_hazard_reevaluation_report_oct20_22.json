@@ -1,0 +1,28 @@
+{
+  "module": "SkyRisk recovery hazard reevaluation",
+  "method": "Time-indexed search, then spatial filtering and haversine",
+  "candidate_input": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\processed\\recovery_route_candidates_oct20_22.csv",
+  "hazard_input": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\processed\\hazard_indicators_oct20_22.csv",
+  "output_csv": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\processed\\recovery_hazard_reevaluation_oct20_22.csv",
+  "candidate_rows": 10176,
+  "hazard_rows": 25608,
+  "valid_indexed_hazard_points": 25608,
+  "invalid_hazard_rows_skipped": 0,
+  "output_rows": 10176,
+  "maximum_time_gap_minutes": 60.0,
+  "maximum_distance_km": 30.0,
+  "status_counts": {
+    "NEARBY_FLIGHT_OBSERVATION_PROXY": 10176
+  },
+  "proxy_indicator_difference_count": 10152,
+  "mean_proxy_minus_original_indicator": -2.583,
+  "safety_validation": "NOT_VALIDATED",
+  "operational_clearance": "NOT_CHECKED",
+  "limitations": [
+    "Nearby observations can belong to another flight.",
+    "A nearby observation is a proxy, not a hazard measurement at the proposed route coordinate.",
+    "This does not sample the entire candidate route.",
+    "This does not validate airspace, terrain, altitude, airway, ATC, NOTAM applicability, or operational clearance.",
+    "The relative hazard indicator is exploratory and is not a calibrated probability of aviation risk."
+  ]
+}

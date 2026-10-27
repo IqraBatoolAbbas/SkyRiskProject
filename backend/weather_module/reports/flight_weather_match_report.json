@@ -1,0 +1,32 @@
+{
+  "flight_input": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\processed\\pakistan_region_candidate_points_oct20_22.csv",
+  "weather_input": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\backend\\weather_module\\data\\open_meteo_grid_weather_oct20_22.csv",
+  "output_file": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\backend\\weather_module\\processed\\flight_weather_matched_oct20_22.csv",
+  "weather_rows_read": 9000,
+  "unique_weather_keys": 9000,
+  "duplicate_weather_keys": 0,
+  "weather_rows_with_invalid_keys": 0,
+  "flight_points_processed": 25608,
+  "matched_points": 25144,
+  "unmatched_points": 464,
+  "invalid_coordinate_points": 0,
+  "invalid_timestamp_points": 0,
+  "match_rate_percent": 98.19,
+  "max_allowed_time_gap_minutes": 30,
+  "max_observed_match_gap_minutes": 29.999833333333335,
+  "matched_points_by_utc_date": {
+    "2026-10-20": 9264,
+    "2026-10-21": 7983,
+    "2026-10-22": 7897
+  },
+  "matched_points_by_grid_cell": 125,
+  "missing_values_by_weather_variable": {},
+  "limitations": [
+    "Weather is assigned from a 0.5-degree grid center.",
+    "Nearest hourly matching is limited to 30 minutes.",
+    "Grid weather is not an exact observation at the aircraft location.",
+    "Surface and 100m winds do not represent cruise-altitude wind.",
+    "The approximate flight region is not an official Pakistan FIR.",
+    "A weather match does not prove a flight hazard or operational impact."
+  ]
+}

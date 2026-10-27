@@ -1,0 +1,16 @@
+ident,name,country,type,latitude,longitude,scheduled_service,source
+OPBW,Bahawalpur Airport,PK,medium_airport,29.348100662231445,71.71800231933594,yes,OurAirports airports.csv
+OPDG,Dera Ghazi Khan Airport,PK,medium_airport,29.961000442504883,70.48590087890625,yes,OurAirports airports.csv
+OPGW,Gwadar International Airport (Old),PK,small_airport,25.23298,62.328735,no,OurAirports airports.csv
+OPIS,Islamabad International Airport,PK,large_airport,33.549,72.82566,yes,OurAirports airports.csv
+OPKC,Jinnah International Airport,PK,large_airport,24.9065,67.160797,yes,OurAirports airports.csv
+OPKE,Chore Airport,PK,small_airport,25.525999,69.771797,no,OurAirports airports.csv
+OPMJ,Moenjodaro Airport,PK,medium_airport,27.335199,68.143097,no,OurAirports airports.csv
+OPMT,Multan International Airport,PK,large_airport,30.203199,71.419098,yes,OurAirports airports.csv
+OPNH,Shaheed Benazirabad Airport,PK,medium_airport,26.2194,68.390099,yes,OurAirports airports.csv
+OPPS,Bacha Khan International Airport,PK,large_airport,33.9939,71.514603,yes,OurAirports airports.csv
+OPSD,Skardu International Airport,PK,large_airport,35.33866,75.538648,yes,OurAirports airports.csv
+OPSK,Begum Nusrat Bhutto International Airport Sukkur,PK,medium_airport,27.722,68.791702,yes,OurAirports airports.csv
+OPSS,Saidu Sharif Airport,PK,medium_airport,34.813599,72.352798,no,OurAirports airports.csv
+OPST,Sialkot International Airport,PK,large_airport,32.535941,74.364623,yes,OurAirports airports.csv
+OPTU,Turbat International Airport,PK,large_airport,25.984767,63.028856,yes,OurAirports airports.csv

@@ -1,0 +1,39 @@
+{
+  "source": "https://adsb.aero/api/v1/query",
+  "database_changed": false,
+  "archive_downloaded": false,
+  "returned_count": 5,
+  "cursor_present": true,
+  "flights": [
+    {
+      "flight_id": "ac8b2e:2026-10-22T23:59:58Z",
+      "callsign": "SWA3770",
+      "start_ts": "2026-10-22T23:59:58.040000Z",
+      "end_ts": "2026-10-22T23:59:59.020000Z"
+    },
+    {
+      "flight_id": "c023b7:2026-10-22T23:59:57Z",
+      "callsign": null,
+      "start_ts": "2026-10-22T23:59:57.960000Z",
+      "end_ts": "2026-10-22T23:59:59.870000Z"
+    },
+    {
+      "flight_id": "851492:2026-10-22T23:59:56Z",
+      "callsign": "JAL395",
+      "start_ts": "2026-10-22T23:59:56.720000Z",
+      "end_ts": "2026-10-22T23:59:59.010000Z"
+    },
+    {
+      "flight_id": "7c7fdc:2026-10-22T23:59:56Z",
+      "callsign": null,
+      "start_ts": "2026-10-22T23:59:56.360000Z",
+      "end_ts": "2026-10-22T23:59:57.460000Z"
+    },
+    {
+      "flight_id": "a448d5:2026-10-22T23:59:55Z",
+      "callsign": null,
+      "start_ts": "2026-10-22T23:59:55.580000Z",
+      "end_ts": "2026-10-22T23:59:58.580000Z"
+    }
+  ]
+}

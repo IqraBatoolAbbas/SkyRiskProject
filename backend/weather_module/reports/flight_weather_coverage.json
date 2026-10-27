@@ -1,0 +1,101 @@
+{
+  "input_file": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\processed\\pakistan_region_candidate_points_oct20_22.csv",
+  "total_rows": 25608,
+  "valid_coordinate_rows": 25608,
+  "invalid_coordinate_rows": 0,
+  "missing_timestamps": 0,
+  "date_counts_utc": {
+    "2026-10-20": 9264,
+    "2026-10-21": 7983,
+    "2026-10-22": 8361
+  },
+  "latitude_min": 23.387375,
+  "latitude_max": 33.310501,
+  "longitude_min": 60.000153,
+  "longitude_max": 77.995498,
+  "exploratory_grid_size_degrees": 0.5,
+  "unique_exploratory_grid_cells": 125,
+  "most_populated_grid_cells": [
+    {
+      "grid_latitude": 28.0,
+      "grid_longitude": 76.5,
+      "point_count": 1469
+    },
+    {
+      "grid_latitude": 30.5,
+      "grid_longitude": 76.5,
+      "point_count": 1304
+    },
+    {
+      "grid_latitude": 27.5,
+      "grid_longitude": 76.5,
+      "point_count": 1019
+    },
+    {
+      "grid_latitude": 28.5,
+      "grid_longitude": 76.5,
+      "point_count": 1006
+    },
+    {
+      "grid_latitude": 30.5,
+      "grid_longitude": 75.0,
+      "point_count": 885
+    },
+    {
+      "grid_latitude": 30.0,
+      "grid_longitude": 77.0,
+      "point_count": 818
+    },
+    {
+      "grid_latitude": 24.0,
+      "grid_longitude": 60.0,
+      "point_count": 784
+    },
+    {
+      "grid_latitude": 28.5,
+      "grid_longitude": 76.0,
+      "point_count": 747
+    },
+    {
+      "grid_latitude": 28.0,
+      "grid_longitude": 76.0,
+      "point_count": 740
+    },
+    {
+      "grid_latitude": 23.5,
+      "grid_longitude": 60.0,
+      "point_count": 729
+    },
+    {
+      "grid_latitude": 24.0,
+      "grid_longitude": 60.5,
+      "point_count": 691
+    },
+    {
+      "grid_latitude": 32.0,
+      "grid_longitude": 75.5,
+      "point_count": 672
+    },
+    {
+      "grid_latitude": 31.0,
+      "grid_longitude": 74.5,
+      "point_count": 562
+    },
+    {
+      "grid_latitude": 24.0,
+      "grid_longitude": 61.0,
+      "point_count": 536
+    },
+    {
+      "grid_latitude": 29.0,
+      "grid_longitude": 75.5,
+      "point_count": 525
+    }
+  ],
+  "limitations": [
+    "The input region is an approximate geographic filter, not an official FIR.",
+    "Grid cells are planning units, not weather observations.",
+    "This script does not download or assign weather data.",
+    "Weather grid resolution and temporal coverage must be verified before matching."
+  ]
+}

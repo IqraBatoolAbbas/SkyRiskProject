@@ -1,0 +1,563 @@
+[
+  {
+    "source_id": "388710c5-af77-4784-bd0e-a85dfeabde1f",
+    "number": "A0596/26",
+    "location_code": "OPSD",
+    "category": {
+      "code": "RUNWAY",
+      "label": "Runway",
+      "description": "Runway closures, works and restrictions"
+    },
+    "notam_type": "N",
+    "effective_start": "2026-10-20T05:00:00Z",
+    "effective_end": "2026-11-03T11:00:00Z",
+    "status": "active",
+    "text": "SRY RWY 14L/32R CLSD DUE WIP (PATCH WORK ON BOTH ENDS)\r\nRWY AVBL FOR FLT OPS IN CASE OF CONTIGENCY SUBJ ONE HR\r\nPRIOR CDN WITH ATC",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "46492c45-b462-4178-bbaf-4ff53986d142",
+    "number": "A0454/26",
+    "location_code": "OPDG",
+    "category": {
+      "code": "RUNWAY",
+      "label": "Runway",
+      "description": "Runway closures, works and restrictions"
+    },
+    "notam_type": "N",
+    "effective_start": "2026-07-29T10:25:00Z",
+    "effective_end": "2026-10-27T23:59:00Z",
+    "status": "active",
+    "text": "RWY-36/18 CLSD FOR ALL FLT OPS DUE UPGRADATION OF AIRSIDE\r\nINFRASTRUCTURE. RWY, TWY AND APRON CLSD. HVY MACHINERY DEPLOYED\r\nWI AIRSIDE PROFILE",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "0c7d30c7-b5dc-4a2e-8132-6428d467e893",
+    "number": "A0591/26",
+    "location_code": "OPNH",
+    "category": {
+      "code": "RUNWAY",
+      "label": "Runway",
+      "description": "Runway closures, works and restrictions"
+    },
+    "notam_type": "R",
+    "effective_start": "2026-10-19T06:28:00Z",
+    "effective_end": "2026-11-30T12:00:00Z",
+    "status": "active",
+    "text": "DIGGING WIP FOR LAYING OUT AFL CABLES ALONG WESTERN\r\nSIDE OF THE RWY 02/20 NEAR 20 END. PILOTS TO EXER\r\nCTN WHILE LDG AND TKOF.",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "b79a0c46-bc2c-4168-b19b-735d1c751df7",
+    "number": "A0588/26",
+    "location_code": "OPBW",
+    "category": {
+      "code": "RUNWAY",
+      "label": "Runway",
+      "description": "Runway closures, works and restrictions"
+    },
+    "notam_type": "N",
+    "effective_start": "2026-10-16T05:00:00Z",
+    "effective_end": "2026-11-05T23:59:00Z",
+    "status": "active",
+    "text": "AD RWY WIP LOCATED ADJ SOUTH SIDE OF RWY APRX 250M\r\nWEST OF TWY 'A' INT. CONST ACT WILL STOP\r\nDRG FLT OPS. RWY WILL BE VACATED AND MADE AVBL FOR\r\nTFC AS REQUIRED. ALL NON-SKED FLT MOV ARE SUBJ 24 HR\r\nPR CDN WITH AD AUTHORITY",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "efe2de12-0d10-43f1-bc8c-7863682c83a1",
+    "number": "C0059/26",
+    "location_code": "OPSS",
+    "category": {
+      "code": "RUNWAY",
+      "label": "Runway",
+      "description": "Runway closures, works and restrictions"
+    },
+    "notam_type": "N",
+    "effective_start": "2026-10-01T00:00:00Z",
+    "effective_end": "2026-10-31T23:59:00Z",
+    "status": "active",
+    "text": "RWY-23/05 NOT AVBL FOR OPS DUE RWY\r\nEXTENSION/UPGRADATION WORK",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "1ba31104-f8fb-4475-a9be-18ac383c62de",
+    "number": "A0558/26",
+    "location_code": "OPKC",
+    "category": {
+      "code": "RUNWAY",
+      "label": "Runway",
+      "description": "Runway closures, works and restrictions"
+    },
+    "notam_type": "N",
+    "effective_start": "2026-09-30T04:00:00Z",
+    "effective_end": "2026-12-28T19:00:00Z",
+    "status": "active",
+    "text": "RWY-25L/07R IS SLIPPERY WHEN WET. PILOTS TO EXER CTN \r\nWHILE LDG AND TKOF",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "b714f780-dfc2-4754-b4f1-7dc49b29c183",
+    "number": "A0499/26",
+    "location_code": "OPPS",
+    "category": {
+      "code": "RUNWAY",
+      "label": "Runway",
+      "description": "Runway closures, works and restrictions"
+    },
+    "notam_type": "N",
+    "effective_start": "2026-08-31T05:10:00Z",
+    "effective_end": "2026-11-28T05:09:00Z",
+    "status": "active",
+    "text": "RWY 17/35 SLIPPERY WHEN WET.EXPECT MEDIUM TO POOR\r\nBREAKING ACTION.ALL PILOTS TO EXER CTN",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "fc04216d-dbf2-4fe1-a97c-b7ca39012f4a",
+    "number": "A0490/26",
+    "location_code": "OPIS",
+    "category": {
+      "code": "RUNWAY",
+      "label": "Runway",
+      "description": "Runway closures, works and restrictions"
+    },
+    "notam_type": "N",
+    "effective_start": "2026-08-25T16:00:00Z",
+    "effective_end": "2026-11-25T14:30:00Z",
+    "status": "active",
+    "text": "HVY MACHINERY DEPLOYED AND EXCAVATION WIP APRX 150M FM RWY CL\r\nON THE SOUTHERN SIDE OF THE MAIN RWY (28L/10R).\r\nEXER CTN DRG LDG, TKOF AND TAX",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "7e597318-0c6e-434a-a678-cbeae6408b8e",
+    "number": "A0590/26",
+    "location_code": "OPLR",
+    "category": {
+      "code": "AIRSPACE",
+      "label": "Airspace",
+      "description": "Airspace structure, restrictions and activity"
+    },
+    "notam_type": "R",
+    "effective_start": "2026-10-17T14:45:00Z",
+    "effective_end": "2026-11-23T23:59:00Z",
+    "status": "active",
+    "text": "PAKISTAN AIRSPACE NOT AVBL FOR INDIAN REGISTERED \r\nACFT AND ACFT OPERATED/OWNED OR LEASED BY INDIAN \r\nAIRLINES/OPERATORS INCLUDING MILITARY FLIGHTS.",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "9291ec77-1fa7-4e1b-bf7f-7582a30d10fc",
+    "number": "A0590/26",
+    "location_code": "OPKR",
+    "category": {
+      "code": "AIRSPACE",
+      "label": "Airspace",
+      "description": "Airspace structure, restrictions and activity"
+    },
+    "notam_type": "R",
+    "effective_start": "2026-10-17T14:45:00Z",
+    "effective_end": "2026-11-23T23:59:00Z",
+    "status": "active",
+    "text": "PAKISTAN AIRSPACE NOT AVBL FOR INDIAN REGISTERED \r\nACFT AND ACFT OPERATED/OWNED OR LEASED BY INDIAN \r\nAIRLINES/OPERATORS INCLUDING MILITARY FLIGHTS.",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "8ab09061-1a02-4973-ac41-21c3dde92b9a",
+    "number": "A0599/26",
+    "location_code": "OPIS",
+    "category": {
+      "code": "NAVAID",
+      "label": "Navaid",
+      "description": "Navigation aids and instrument landing systems"
+    },
+    "notam_type": "N",
+    "effective_start": "2026-10-22T05:00:00Z",
+    "effective_end": "2026-10-30T23:59:00Z",
+    "status": "active",
+    "text": "GLIDE PATH GP 28L NOT AVBL DUE CIV WORK IN CRITICAL\r\nAREA.",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "db9724fb-b326-408d-88f0-67d2f57a4003",
+    "number": "A0597/26",
+    "location_code": "OPGW",
+    "category": {
+      "code": "NAVAID",
+      "label": "Navaid",
+      "description": "Navigation aids and instrument landing systems"
+    },
+    "notam_type": "R",
+    "effective_start": "2026-10-20T09:21:00Z",
+    "effective_end": "2026-11-05T23:59:00Z",
+    "status": "active",
+    "text": "DVOR IDENT 'GW' FREQ 112.7 MHZ U/S DUE TECR",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "66a9e10e-fe18-43bf-ae81-c09aa82784ee",
+    "number": "A0598/26",
+    "location_code": "OPKC",
+    "category": {
+      "code": "NAVAID",
+      "label": "Navaid",
+      "description": "Navigation aids and instrument landing systems"
+    },
+    "notam_type": "R",
+    "effective_start": "2026-10-29T05:00:00Z",
+    "effective_end": "2026-10-29T09:00:00Z",
+    "status": "upcoming",
+    "text": "LOC RWY-25R IDENT ?IKC? FREQ 110.1MHZ  \r\nOFF THE AIR DUE SKED MAINT.\r\nAMEND AIC 03/26 DATED: 08 SEP,2026 ACCORDINGLY",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "c1507342-4d5d-42e1-b783-0213572d2f78",
+    "number": "A0593/26",
+    "location_code": "OPKE",
+    "category": {
+      "code": "NAVAID",
+      "label": "Navaid",
+      "description": "Navigation aids and instrument landing systems"
+    },
+    "notam_type": "N",
+    "effective_start": "2026-10-29T05:00:00Z",
+    "effective_end": "2026-10-29T09:00:00Z",
+    "status": "upcoming",
+    "text": "CHOR NDB IDENT 'KE' FREQ: 410KHZ OFF THE AIR\r\nDUE SKED MAINT.",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "a3ac81be-1531-455d-a94b-2bc236c5eb53",
+    "number": "A0577/26",
+    "location_code": "OPST",
+    "category": {
+      "code": "TAXIWAY",
+      "label": "Taxiway",
+      "description": "Taxiway closures and works"
+    },
+    "notam_type": "N",
+    "effective_start": "2026-10-14T03:00:00Z",
+    "effective_end": "2026-10-28T19:00:00Z",
+    "status": "active",
+    "text": "TWY 'A' NOT AVBL DUE MAINT WORK ABEAM BAY NO.01.\r\nDAY AND NIGHT SAFETY MARKING PLACED AROUND THE AREA.\r\nALL ACFT TAX IN/OUT SHALL USE TWY 'D'.\r\nACFT AT BAY NO.2, BAY NO.3 AND BAY NO.4 PUSH BACK \r\nFACING TOWARDS SW AND START UP ABEAM BAY NO.6.\r\nACFT AT BAY NO.6 PUSH BACK FACING TOWARDS NE AND \r\nSTART UP ABEAM BAY NO. 3.\r\nBAY NO.1 BAY NO.7 NOT AVBL FOR PRKG.\r\nBAY NO.2 AVBL ONLY FOR PRKG OF NARROW BODY ACFT.\r\nBAY NO.3, BAY NO.4 AND BAY NO.6 AVBL FOR WIDE BODY\r\nACFT AS WELL.",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "065731a1-25f5-4f36-b5ae-59692529e3a5",
+    "number": "A0595/26",
+    "location_code": "OPKR",
+    "category": {
+      "code": "ATC_COMMS",
+      "label": "ATC & comms",
+      "description": "Air traffic services, frequencies and radar"
+    },
+    "notam_type": "R",
+    "effective_start": "2026-10-19T14:10:00Z",
+    "effective_end": "2026-11-03T23:59:00Z",
+    "status": "active",
+    "text": "LAKPASS MSSR NOT AVBL WI 250NM AROUND LAKPASS \r\nDUE OPR REASON. DRG THE PERIOD ADS-B DATA OF \r\nLAKPASS AND MSSR/ADS-B DATA OF OTHER STATIONS \r\nWILL REMAIN AVBL AT LAHORE AND KARACHI ACC.\r\nNON-RADAR PROCEDURAL CONTROL WILL BE PROVIDED TO \r\nNON ADS-B EQUIPPED ACFT IN AREAS WITH AFFECTED\r\nSURVEILLANCE COVERAGE.",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "1eb66710-e0bf-4242-9979-1942dd0e2ef0",
+    "number": "A0595/26",
+    "location_code": "OPLR",
+    "category": {
+      "code": "ATC_COMMS",
+      "label": "ATC & comms",
+      "description": "Air traffic services, frequencies and radar"
+    },
+    "notam_type": "R",
+    "effective_start": "2026-10-19T14:10:00Z",
+    "effective_end": "2026-11-03T23:59:00Z",
+    "status": "active",
+    "text": "LAKPASS MSSR NOT AVBL WI 250NM AROUND LAKPASS \r\nDUE OPR REASON. DRG THE PERIOD ADS-B DATA OF \r\nLAKPASS AND MSSR/ADS-B DATA OF OTHER STATIONS \r\nWILL REMAIN AVBL AT LAHORE AND KARACHI ACC.\r\nNON-RADAR PROCEDURAL CONTROL WILL BE PROVIDED TO \r\nNON ADS-B EQUIPPED ACFT IN AREAS WITH AFFECTED\r\nSURVEILLANCE COVERAGE.",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "e988d1a3-dbd1-42be-80b7-365ee7f5b089",
+    "number": "SWOP0023/27",
+    "location_code": "OPMT",
+    "category": {
+      "code": "RWY_COND",
+      "label": "Runway condition",
+      "description": "Runway surface conditions - snow, ice, slush and standing water"
+    },
+    "notam_type": null,
+    "effective_start": "2027-04-09T15:25:00Z",
+    "effective_end": "2027-04-09T23:25:00Z",
+    "status": "upcoming",
+    "text": "SWOP0023 OPMT 09161555\r (SNOWTAM 0023\r OPMT\r 16091525 18 5/5/5 100/100/100 NR/NR/NR WET/WET/WET)",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "4686512c-360b-4f82-ba98-bfb500538f19",
+    "number": "A0603/26",
+    "location_code": "OPNH",
+    "category": {
+      "code": "LIGHTING",
+      "label": "Lighting",
+      "description": "Approach, runway and aerodrome lighting"
+    },
+    "notam_type": "N",
+    "effective_start": "2026-10-22T10:00:00Z",
+    "effective_end": "2026-11-05T23:59:00Z",
+    "status": "active",
+    "text": "SIMPLE APCH LGT SYSTEM (SALS) RWY-20 U/S \r\nDUE REPAIR AND MAINT WORKS. PAPI RWY-20 REMAIN S/A",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "28a8d41e-5d8e-4a3c-a0a1-50bb232f0e91",
+    "number": "C0063/26",
+    "location_code": "OPMJ",
+    "category": {
+      "code": "LIGHTING",
+      "label": "Lighting",
+      "description": "Approach, runway and aerodrome lighting"
+    },
+    "notam_type": "R",
+    "effective_start": "2026-10-07T05:50:00Z",
+    "effective_end": "2026-11-05T23:59:00Z",
+    "status": "active",
+    "text": "PAPI LGT RWY-26 NOT AVBL",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "86f51243-bf26-456a-8556-69685b7572f8",
+    "number": "A0541/26",
+    "location_code": "OPKC",
+    "category": {
+      "code": "LIGHTING",
+      "label": "Lighting",
+      "description": "Approach, runway and aerodrome lighting"
+    },
+    "notam_type": "R",
+    "effective_start": "2026-09-23T08:00:00Z",
+    "effective_end": "2026-11-06T12:00:00Z",
+    "status": "active",
+    "text": "RWY 25L/07R NOT AVBL EXC SUNDAY/HOLIDAYS DUE TO \r\nPREVENTIVE MAINT OF AIRFIELD LIGHTING SYSTEM. \r\nPILOTS TO EXER CTN",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "00ed2ad6-480f-4712-934e-d090b365b8d0",
+    "number": "C0060/26",
+    "location_code": "OPKR",
+    "category": {
+      "code": "OTHER",
+      "label": "Other",
+      "description": "Everything the rules do not place"
+    },
+    "notam_type": "R",
+    "effective_start": "2026-10-01T00:00:00Z",
+    "effective_end": "2026-11-01T00:00:00Z",
+    "status": "active",
+    "text": "CHECKLIST\r\nYEAR=2026 0039 0050 0057 0058 0059\r\nLATEST PUBLICATIONS\r\nAIC-03/26: PUBLISHED DATE: 08TH SEP 2026.\r\nAIP SUP S-55/26 PUBLISHED DATE: 30TH SEP 2026 \r\nAIRAC AIP AMDT-03/26: EFFECTIVE DATE: 01ST OCT' 2026.",
+    "is_checklist_candidate": true,
+    "validation_issues": []
+  },
+  {
+    "source_id": "34cbadbf-8181-4691-9131-a2194c1490bb",
+    "number": "A0560/26",
+    "location_code": "OPLR",
+    "category": {
+      "code": "OTHER",
+      "label": "Other",
+      "description": "Everything the rules do not place"
+    },
+    "notam_type": "R",
+    "effective_start": "2026-10-01T00:00:00Z",
+    "effective_end": "2026-11-01T00:00:00Z",
+    "status": "active",
+    "text": "CHECKLIST\r\nYEAR=2026 0252 0392 0393 0436 0437 0454 0471 0490 0499 0521\r\n          0524 0529 0541 0545 0549 0550 0551 0552 0553 0554\r\n          0557 0558\r\nLATEST PUBLICATIONS\r\nAIC-03/26: PUBLISHED DATE: 08TH SEP 2026\r\nAIP SUP S-55/26 PUBLISHED DATE: 30TH SEP 2026  \r\nAIRAC AIP AMDT-03/26: EFFECTIVE DATE: 01ST OCT 2026.",
+    "is_checklist_candidate": true,
+    "validation_issues": []
+  },
+  {
+    "source_id": "95ecc2bb-9f1b-42c9-80cb-c1a05cb08a8f",
+    "number": "C0060/26",
+    "location_code": "OPLR",
+    "category": {
+      "code": "OTHER",
+      "label": "Other",
+      "description": "Everything the rules do not place"
+    },
+    "notam_type": "R",
+    "effective_start": "2026-10-01T00:00:00Z",
+    "effective_end": "2026-11-01T00:00:00Z",
+    "status": "active",
+    "text": "CHECKLIST\r\nYEAR=2026 0039 0050 0057 0058 0059\r\nLATEST PUBLICATIONS\r\nAIC-03/26: PUBLISHED DATE: 08TH SEP 2026.\r\nAIP SUP S-55/26 PUBLISHED DATE: 30TH SEP 2026 \r\nAIRAC AIP AMDT-03/26: EFFECTIVE DATE: 01ST OCT' 2026.",
+    "is_checklist_candidate": true,
+    "validation_issues": []
+  },
+  {
+    "source_id": "9c5d0a6c-4441-4a9e-90f2-7a6f7081149a",
+    "number": "A0560/26",
+    "location_code": "OPKR",
+    "category": {
+      "code": "OTHER",
+      "label": "Other",
+      "description": "Everything the rules do not place"
+    },
+    "notam_type": "R",
+    "effective_start": "2026-10-01T00:00:00Z",
+    "effective_end": "2026-11-01T00:00:00Z",
+    "status": "active",
+    "text": "CHECKLIST\r\nYEAR=2026 0252 0392 0393 0436 0437 0454 0471 0490 0499 0521\r\n          0524 0529 0541 0545 0549 0550 0551 0552 0553 0554\r\n          0557 0558\r\nLATEST PUBLICATIONS\r\nAIC-03/26: PUBLISHED DATE: 08TH SEP 2026\r\nAIP SUP S-55/26 PUBLISHED DATE: 30TH SEP 2026  \r\nAIRAC AIP AMDT-03/26: EFFECTIVE DATE: 01ST OCT 2026.",
+    "is_checklist_candidate": true,
+    "validation_issues": []
+  },
+  {
+    "source_id": "366e397c-e2d4-4549-9ef2-97f5c4694a4f",
+    "number": "A0529/26",
+    "location_code": "OPGW",
+    "category": {
+      "code": "OTHER",
+      "label": "Other",
+      "description": "Everything the rules do not place"
+    },
+    "notam_type": "R",
+    "effective_start": "2026-09-18T09:25:00Z",
+    "effective_end": "2026-12-30T11:45:00Z",
+    "status": "active",
+    "text": "LAND AD OPS HR AT GWADAR INTL AIRPORT ARE AS FLW\r\nMON BTN 0915-1145\r\nTUE BTN 0230-0430 0730-0915\r\nTHU BTN 0915-1145\r\nSUN BTN 0500-0830\r\n24 HR PRIOR CDN IS REQUIRED FOR NON-SKED FLT\r\n(CIVIL/MILITARY) OR FLT OPR BEYOND AD OPS HR",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "4f4b5fcb-f42d-4247-ab12-291c20115372",
+    "number": "A0471/26",
+    "location_code": "OPTU",
+    "category": {
+      "code": "OTHER",
+      "label": "Other",
+      "description": "Everything the rules do not place"
+    },
+    "notam_type": "N",
+    "effective_start": "2026-08-14T13:00:00Z",
+    "effective_end": "2026-11-01T13:00:00Z",
+    "status": "active",
+    "text": "AD AVBL FOR VFR FLT ONLY",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "e1ac1bd5-6674-489d-857f-8724532004e5",
+    "number": "C0050/26",
+    "location_code": "OPSK",
+    "category": {
+      "code": "OTHER",
+      "label": "Other",
+      "description": "Everything the rules do not place"
+    },
+    "notam_type": "R",
+    "effective_start": "2026-08-13T04:00:00Z",
+    "effective_end": "2026-11-10T16:00:00Z",
+    "status": "active",
+    "text": "LAND AD AND NDB OPS HR ARE AS FLW:\r\nNON SKED FLT OPR BEYOND OPS HR\r\nREQUIRED 24 HR PRIOR COOR",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "73a63693-4409-4dbf-ab3d-c648e647f18c",
+    "number": "A0587/26",
+    "location_code": "OPLR",
+    "category": {
+      "code": "OTHER",
+      "label": "Other",
+      "description": "Everything the rules do not place"
+    },
+    "notam_type": "N",
+    "effective_start": "2026-10-29T00:01:00Z",
+    "effective_end": "2026-11-11T23:59:00Z",
+    "status": "upcoming",
+    "text": "TRIGGER NOTAM - NIL AIRAC AIP SUPPLEMENT/ AIP AMENDMENT\r\nWEF 29TH OCTOBER, 2026",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "a52e8697-6ef0-4c49-86ef-2ec7c18fa552",
+    "number": "A0587/26",
+    "location_code": "OPKR",
+    "category": {
+      "code": "OTHER",
+      "label": "Other",
+      "description": "Everything the rules do not place"
+    },
+    "notam_type": "N",
+    "effective_start": "2026-10-29T00:01:00Z",
+    "effective_end": "2026-11-11T23:59:00Z",
+    "status": "upcoming",
+    "text": "TRIGGER NOTAM - NIL AIRAC AIP SUPPLEMENT/ AIP AMENDMENT\r\nWEF 29TH OCTOBER, 2026",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "144cb363-e952-40d4-9f2c-b5780b1040d5",
+    "number": "C0065/26",
+    "location_code": "OPKR",
+    "category": {
+      "code": "OBSTACLE",
+      "label": "Obstacle",
+      "description": "Cranes, masts and other obstacles"
+    },
+    "notam_type": "N",
+    "effective_start": "2026-10-14T12:00:00Z",
+    "effective_end": "2026-11-15T07:00:00Z",
+    "status": "active",
+    "text": "RIG NO. TES 1. 115 FEET (ONE HUNDRED AND FIFTEEN FEET)\r\nHIGH RIG WILL BE ERECTED AT LOCATION LAT 242727.650\r\nNORTH LONG 673053.270 EAST. DAY/NIGHT MARKING PROVIDED.",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "57aa1fc8-0e70-40c6-9595-4094b79c6fd0",
+    "number": "C0058/26",
+    "location_code": "OPKR",
+    "category": {
+      "code": "OBSTACLE",
+      "label": "Obstacle",
+      "description": "Cranes, masts and other obstacles"
+    },
+    "notam_type": "N",
+    "effective_start": "2026-09-16T22:00:00Z",
+    "effective_end": "2026-10-30T02:00:00Z",
+    "status": "active",
+    "text": "RIG NO. ISHRAQ-X-1. 150FT (ONE HUNDRED AND FIFTY FEET)\r\nHIGH RIG WILL BE ERECTED AT LOCATION LAT 260729.4048 NORTH\r\nLONG 683623.6472 EAST. DAY/NIGHT MARKING PROVIDED",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  },
+  {
+    "source_id": "06cefa1b-49e6-4848-9d74-6e50b2a1ebd5",
+    "number": "C0039/26",
+    "location_code": "OPKR",
+    "category": {
+      "code": "OBSTACLE",
+      "label": "Obstacle",
+      "description": "Cranes, masts and other obstacles"
+    },
+    "notam_type": "R",
+    "effective_start": "2026-06-30T03:00:00Z",
+    "effective_end": "2026-09-30T07:00:00Z",
+    "status": "expired",
+    "text": "RIG NO. PETEJI-2. 150FT (ONE HUNDRED AND FIFTY FEET)\r\nHIGH RIG WILL BE ERRECTED AT LOCATION LAT 241016.5459 NORTH\r\nLONG 682604.1597 EAST. DAY/NIGHT MARKING PROVIDED",
+    "is_checklist_candidate": false,
+    "validation_issues": []
+  }
+]

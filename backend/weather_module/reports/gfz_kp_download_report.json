@@ -1,0 +1,29 @@
+{
+  "source": "GFZ Potsdam",
+  "source_url": "https://kp.gfz.de/app/json/?start=2026-10-20T00:00:00Z&end=2026-10-22T23:59:59Z&index=Kp",
+  "license": "CC BY 4.0",
+  "requested_dates_utc": [
+    "2026-10-20",
+    "2026-10-22"
+  ],
+  "retrieved_at_utc": "2026-10-23T15:48:24.860894+00:00",
+  "total_rows": 24,
+  "rows_by_date": {
+    "2026-10-20": 8,
+    "2026-10-21": 8,
+    "2026-10-22": 8
+  },
+  "missing_dates": [],
+  "status_counts": {
+    "pre": 24
+  },
+  "date_coverage_complete": true,
+  "csv_file": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\backend\\weather_module\\data\\gfz_kp_2026-10-20_2026-10-22.csv",
+  "raw_response_file": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\backend\\weather_module\\data\\gfz_kp_raw.json",
+  "limitations": [
+    "Kp is a global geomagnetic index, not a direct local flight hazard.",
+    "GFZ status values must be retained to distinguish preliminary from definitive data.",
+    "This script does not calculate flight risk.",
+    "Date presence does not by itself validate every observation."
+  ]
+}

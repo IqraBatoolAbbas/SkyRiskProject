@@ -1,0 +1,5 @@
+candidate_id,total_records,valid_indicator_comparisons,indicator_lower_count,indicator_same_count,indicator_higher_count,indicator_lower_percent,median_proxy_distance_km,median_proxy_time_gap_minutes,mean_indicator_difference
+LEFT_CANDIDATE_15KM,2544,2534,742,1501,291,29.28,10.472,12.553,-1.998
+RIGHT_CANDIDATE_15KM,2544,2543,740,1416,387,29.1,9.915,14.521,-2.209
+LEFT_CANDIDATE_25KM,2544,2534,1043,1190,301,41.16,14.296,16.212,-3.411
+RIGHT_CANDIDATE_25KM,2544,2541,956,1200,385,37.62,13.66,16.448,-2.715

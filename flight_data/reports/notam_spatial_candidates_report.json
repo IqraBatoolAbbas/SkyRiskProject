@@ -1,0 +1,45 @@
+{
+  "engine": "notam_spatial_candidate_screen_v1",
+  "generated_utc": "2026-10-23T15:07:43.757758+00:00",
+  "input_decisions": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\processed\\notam_decisions_oct20_22.csv",
+  "airport_reference": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\processed\\notam_airport_coordinate_candidates.csv",
+  "airport_coordinate_source": "https://davidmegginson.github.io/ourairports-data/airports.csv",
+  "exploratory_radius_km": 25.0,
+  "counts": {
+    "input_decision_rows": 845064,
+    "coordinate_comparisons": 395770,
+    "rejected_time_rows_skipped": 193214,
+    "rows_without_airport_coordinate": 256080,
+    "spatial_candidate_rows": 6
+  },
+  "unique_candidate_flights": 2,
+  "unique_candidate_notam_location_pairs": 2,
+  "unmatched_location_codes": [
+    "OPKR",
+    "OPLR"
+  ],
+  "closest_observed_point_to_each_mapped_airport_km": {
+    "OPBW": 134.588,
+    "OPDG": 210.447,
+    "OPGW": 17.841,
+    "OPIS": 112.664,
+    "OPKC": 380.654,
+    "OPMJ": 408.024,
+    "OPNH": 437.691,
+    "OPPS": 228.796,
+    "OPSD": 227.327,
+    "OPSK": 414.249,
+    "OPSS": 258.852,
+    "OPST": 34.668,
+    "OPTU": 74.823
+  },
+  "limitations": [
+    "25 km is an exploratory screening radius, not an operational threshold.",
+    "Airport reference points are not runway coordinates.",
+    "Nearby trajectory points do not prove airport arrival or departure.",
+    "A spatial candidate does not prove that a NOTAM affected a flight.",
+    "OPKR and OPLR remain unmatched unless a verified reference is added.",
+    "No validated operational-impact matches are created.",
+    "Source decision CSV, airport reference CSV and database are not modified."
+  ]
+}

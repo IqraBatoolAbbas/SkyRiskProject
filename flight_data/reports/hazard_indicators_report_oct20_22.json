@@ -1,0 +1,93 @@
+{
+  "project": "SkyRisk Auditor",
+  "report_type": "exploratory_relative_hazard_indicators",
+  "generated_at_utc": "2026-10-23T16:35:36.677793+00:00",
+  "input_file": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\processed\\multihazard_dataset_oct20_22.csv",
+  "output_file": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\processed\\hazard_indicators_oct20_22.csv",
+  "total_rows": 25608,
+  "feature_summary": {
+    "precipitation": {
+      "source_column": "precipitation",
+      "available_rows": 25144,
+      "missing_rows": 464,
+      "min": 0.0,
+      "median": 0.0,
+      "max": 0.9
+    },
+    "wind_gusts": {
+      "source_column": "wind_gusts_10m",
+      "available_rows": 25144,
+      "missing_rows": 464,
+      "min": 0.7,
+      "median": 9.7,
+      "max": 45.7
+    },
+    "wind_speed_10m": {
+      "source_column": "wind_speed_10m",
+      "available_rows": 25144,
+      "missing_rows": 464,
+      "min": 0.0,
+      "median": 5.0,
+      "max": 22.0
+    },
+    "wind_speed_100m": {
+      "source_column": "wind_speed_100m",
+      "available_rows": 25144,
+      "missing_rows": 464,
+      "min": 0.4,
+      "median": 9.7,
+      "max": 31.6
+    },
+    "cloud_cover": {
+      "source_column": "cloud_cover",
+      "available_rows": 25144,
+      "missing_rows": 464,
+      "min": 0.0,
+      "median": 0.0,
+      "max": 100.0
+    },
+    "space_weather_kp": {
+      "source_column": "Kp",
+      "available_rows": 24153,
+      "missing_rows": 1455,
+      "min": 0.667,
+      "median": 3.333,
+      "max": 4.667
+    }
+  },
+  "relative_indicator_summary": {
+    "min": 18.5,
+    "median": 49.6,
+    "max": 93.27,
+    "mean": 50.0
+  },
+  "score_status_counts": {
+    "RELATIVE_SCORE_AVAILABLE": 25144,
+    "INSUFFICIENT_HAZARD_DATA": 464
+  },
+  "notam_evidence_counts": {
+    "NO_CANDIDATE_FOUND_NOT_PROOF_OF_ABSENCE": 25553,
+    "NOTAM_LINK_UNRESOLVED": 52,
+    "UNCONFIRMED_NOTAM_CANDIDATE": 3
+  },
+  "coverage_counts": {
+    "BOTH_MATCHED": 24153,
+    "NEITHER_MATCHED": 464,
+    "WEATHER_ONLY": 991
+  },
+  "method": {
+    "normalization": "Empirical percentile ranks from this dataset",
+    "aggregation": "Arithmetic mean of available feature percentiles",
+    "weights": "Equal weight for each available feature",
+    "missing_data": "Missing values are excluded from the row mean and reported separately; no missing value is replaced by zero.",
+    "notam": "NOTAM candidate evidence is reported separately and does not add points to the numeric indicator."
+  },
+  "limitations": [
+    "This is a relative exploratory indicator, not a calibrated aviation risk score.",
+    "Percentiles depend on the current sample and may change with new data.",
+    "Weather fields include grid estimates and near-surface wind measurements.",
+    "Kp is a global index and does not prove local flight impact.",
+    "NOTAM candidates do not establish applicability or operational impact.",
+    "No route recovery or diversion recommendation is generated here."
+  ]
+}

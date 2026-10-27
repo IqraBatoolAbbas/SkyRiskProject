@@ -1,0 +1,113 @@
+{
+  "created_at_utc": "2026-10-23T16:10:04.045640+00:00",
+  "input_file": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\backend\\weather_module\\processed\\combined_hazard_coverage_audit_oct20_22.csv",
+  "total_rows": 25608,
+  "unique_trajectory_keys": 25608,
+  "duplicate_trajectory_keys": 0,
+  "invalid_coordinates": 0,
+  "missing_or_invalid_timestamps": 0,
+  "numeric_statistics": {
+    "longitude": {
+      "min": 60.000153,
+      "max": 77.995498,
+      "valid_count": 25608
+    },
+    "latitude": {
+      "min": 23.387375,
+      "max": 33.310501,
+      "valid_count": 25608
+    },
+    "temperature_2m": {
+      "min": -22.9,
+      "max": 33.4,
+      "valid_count": 25144
+    },
+    "relative_humidity_2m": {
+      "min": 15.0,
+      "max": 96.0,
+      "valid_count": 25144
+    },
+    "precipitation": {
+      "min": 0.0,
+      "max": 0.9,
+      "valid_count": 25144
+    },
+    "pressure_msl": {
+      "min": 1012.8,
+      "max": 1034.2,
+      "valid_count": 25144
+    },
+    "cloud_cover": {
+      "min": 0.0,
+      "max": 100.0,
+      "valid_count": 25144
+    },
+    "wind_speed_10m": {
+      "min": 0.0,
+      "max": 22.0,
+      "valid_count": 25144
+    },
+    "wind_speed_100m": {
+      "min": 0.4,
+      "max": 31.6,
+      "valid_count": 25144
+    },
+    "wind_gusts_10m": {
+      "min": 0.7,
+      "max": 45.7,
+      "valid_count": 25144
+    },
+    "weather_gap_minutes": {
+      "min": 0.0,
+      "max": 30.0,
+      "valid_count": 25144
+    },
+    "Kp": {
+      "min": 0.667,
+      "max": 4.667,
+      "valid_count": 24153
+    },
+    "kp_gap_minutes": {
+      "min": 0.002,
+      "max": 90.0,
+      "valid_count": 24153
+    }
+  },
+  "missing_numeric_values": {
+    "temperature_2m": 464,
+    "relative_humidity_2m": 464,
+    "precipitation": 464,
+    "pressure_msl": 464,
+    "cloud_cover": 464,
+    "wind_speed_10m": 464,
+    "wind_speed_100m": 464,
+    "wind_gusts_10m": 464,
+    "weather_gap_minutes": 464,
+    "Kp": 1455,
+    "kp_gap_minutes": 1455
+  },
+  "invalid_numeric_text": {},
+  "range_violation_counts": {},
+  "status_counts": {
+    "weather_match_status=MATCHED_GRID_ESTIMATE_NOT_EXACT_FLIGHT_WEATHER": 25144,
+    "space_weather_match_status=MATCHED_GLOBAL_KP_PRELIMINARY": 24153,
+    "combined_coverage_status=BOTH_MATCHED": 24153,
+    "kp_status=pre": 24153,
+    "weather_match_status=NO_GRID_HOUR_WITHIN_30_MIN": 464,
+    "space_weather_match_status=NO_KP_OBSERVATION_WITHIN_90_MIN": 1455,
+    "combined_coverage_status=NEITHER_MATCHED": 464,
+    "combined_coverage_status=WEATHER_ONLY": 991
+  },
+  "daily_row_counts": {
+    "2026-10-21": 7983,
+    "2026-10-20": 9264,
+    "2026-10-22": 8361
+  },
+  "quality_notes": [
+    "Range checks flag values for review; they do not establish aviation risk.",
+    "Missing weather or Kp values are not replaced or imputed.",
+    "Kp is a global geomagnetic index, not a local flight hazard measurement.",
+    "Weather values are grid estimates, not exact aircraft-local observations.",
+    "Passing these checks does not validate hazard impact or operational outcomes."
+  ]
+}

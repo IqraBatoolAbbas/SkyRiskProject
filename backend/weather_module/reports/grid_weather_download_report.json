@@ -1,0 +1,23 @@
+{
+  "source": "Open-Meteo Historical Archive API",
+  "requested_start_date": "2026-10-20",
+  "requested_end_date": "2026-10-22",
+  "input_flight_rows": 25608,
+  "invalid_coordinate_rows": 0,
+  "unique_grid_cells": 125,
+  "grid_size_degrees": 0.5,
+  "batch_size": 10,
+  "successful_grid_locations": 125,
+  "failed_or_incomplete_batches_or_locations": 0,
+  "hourly_weather_rows_saved": 9000,
+  "expected_rows_if_all_cells_have_72_hours": 9000,
+  "output_csv": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\backend\\weather_module\\data\\open_meteo_grid_weather_oct20_22.csv",
+  "errors": [],
+  "limitations": [
+    "Grid centers are approximate spatial samples, not exact flight positions.",
+    "Surface and 100m wind are not aircraft cruise-altitude winds.",
+    "A weather match does not by itself establish aviation risk or impact.",
+    "The approximate flight region may include points outside Pakistan.",
+    "API response completeness and model provenance should be reviewed."
+  ]
+}

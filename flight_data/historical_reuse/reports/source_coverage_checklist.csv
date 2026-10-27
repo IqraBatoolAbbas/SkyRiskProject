@@ -1,0 +1,6 @@
+source,provider,requested_window,coverage_result,used_in_outputs,blocker_or_limitation
+flight trajectory,adsb.aero API / adsb.lol archive,2026-10-10 to 2026-10-15 UTC,available and retrieved,yes,ADS-B is crowd-sourced and spatially filtered to the Pakistan country polygon
+weather,Open-Meteo archive API,2026-10-10 to 2026-10-15 UTC,available and retrieved,reference only,One reference grid point is not a defensible spatial match for every trajectory point
+geomagnetic Kp,NOAA SWPC planetary K index,2026-10-10 to 2026-10-15 UTC,partial; returned product began 2026-10-15,yes with unmatched rows,Historical rows for 2026-10-10 to 2026-10-14 were unavailable from checked endpoint
+solar wind/SWiPS,NOAA NCEI public SWFO archive,2026-10-10 to 2026-10-14 UTC,available and retrieved,quality fields only,2026-10-15 file returned NoSuchKey; combined velocity variable units were not documented
+NOTAM/airspace,FAA/EUROCONTROL/ICAO sources checked,2026-10-10 to 2026-10-15 UTC,no usable historical message archive established,no,FAA NOTAM app access denied; NASR is not NOTAM; EUROCONTROL/ICAO historical bulk access and licensing not verified

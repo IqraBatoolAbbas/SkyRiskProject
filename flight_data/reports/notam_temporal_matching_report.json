@@ -1,0 +1,29 @@
+{
+  "input_trajectory_csv": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\processed\\pakistan_region_candidate_points_oct20_22.csv",
+  "output_matches_csv": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\processed\\notam_temporal_candidate_matches_oct20_22.csv",
+  "notam_database_table": "public.notams",
+  "matching_method": "Point timestamp falls inclusively within the NOTAM's effective start/end interval.",
+  "trajectory_points_read": 25608,
+  "notam_records_read": 33,
+  "notams_with_usable_timezone_aware_bounds": 33,
+  "notams_skipped_for_missing_or_invalid_bounds": 0,
+  "points_with_at_least_one_temporal_match": 25608,
+  "temporal_match_rows": 651850,
+  "unique_flights_with_temporal_matches": 888,
+  "unique_notams_with_temporal_matches": 23,
+  "points_with_invalid_or_timezone_unknown_times": 0,
+  "interpretation": {
+    "temporal_match": "Time overlap only; it does not establish geographic or operational applicability.",
+    "spatial_applicability": "UNKNOWN",
+    "operational_impact": "UNKNOWN",
+    "official_aviation_verification": "NOT_PERFORMED",
+    "risk_score": "NOT_ASSIGNED_BY_THIS_SCRIPT"
+  },
+  "limitations": [
+    "Trajectory points use a preliminary geographic bounding box, not an official Pakistan FIR polygon.",
+    "NOTAM location codes alone do not prove a trajectory used the affected runway, airport facility, or airspace.",
+    "Database status alone does not establish applicability.",
+    "A missing match does not prove a flight was unaffected.",
+    "Only NOTAM records stored in this database were examined."
+  ]
+}

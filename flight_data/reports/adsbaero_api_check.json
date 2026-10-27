@@ -1,0 +1,28 @@
+[
+  {
+    "url": "https://adsb.aero/api/v1/health",
+    "http_status": 200,
+    "content_type": "application/json",
+    "response": {
+      "status": "ok"
+    }
+  },
+  {
+    "url": "https://adsb.aero/api/openapi.json",
+    "http_status": 200,
+    "content_type": "application/json",
+    "api_title": "adsb.aero API",
+    "api_version": "0.1.0",
+    "endpoints": [
+      "/api/v1/health",
+      "/api/v1/data-range",
+      "/api/v1/icao-types",
+      "/api/v1/query",
+      "/api/v1/flights/{flight_id}",
+      "/api/v1/waypoints/search",
+      "/api/v1/waypoints/{waypoint_id}",
+      "/api/v1/airports/{code}",
+      "/api/v1/airspaces"
+    ]
+  }
+]

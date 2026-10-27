@@ -1,0 +1,29 @@
+{
+  "input_used": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\processed\\notam_spatial_candidates_oct20_22.csv",
+  "notam_text_source": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\reports\\notam_matching_inspection.json",
+  "fallback_used": false,
+  "rows_screened": 6,
+  "unique_flights": 2,
+  "unique_notam_numbers": 2,
+  "notam_records_loaded": 33,
+  "rows_with_notam_text": 6,
+  "rows_without_notam_text": 0,
+  "unmatched_notam_location_keys": [],
+  "screening_counts": {
+    "POTENTIAL_RISK_UNCONFIRMED": 6
+  },
+  "text_indicator_counts": {
+    "OPERATING_HOURS": 3,
+    "NAVIGATION_AID": 3
+  },
+  "validated_impacts_created": 0,
+  "limitations": [
+    "Text indicators use heuristic rules and may miss or misclassify NOTAMs.",
+    "Category indicators are not proof of operational impact.",
+    "Airport reference distance does not prove arrival or departure.",
+    "Existing decisions are preserved and not upgraded to validated.",
+    "Candidate input means the output covers candidate rows only.",
+    "Inspection data is from the existing NOTAC-derived project report."
+  ],
+  "output_csv": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\processed\\notam_flight_risk_screening.csv"
+}

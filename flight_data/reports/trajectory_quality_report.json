@@ -1,0 +1,23 @@
+{
+  "dataset": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\data\\external\\tartanaviation_adsb_19k_clean.csv",
+  "rows_read_and_valid": 19707,
+  "invalid_or_out_of_range_rows": 7,
+  "unique_aircraft_ids": 4945,
+  "aircraft_with_multiple_points": 2427,
+  "aircraft_with_positive_time_gaps": 2386,
+  "points_per_aircraft": {
+    "minimum": 1,
+    "median": 1,
+    "maximum": 537
+  },
+  "positive_time_gap_seconds": {
+    "count": 13472,
+    "median": 4616.1445,
+    "maximum": 25584279.524,
+    "gaps_over_5_minutes": 8874
+  },
+  "aircraft_with_duplicate_timestamps": 333,
+  "aircraft_with_backwards_timestamps": 0,
+  "geographic_scope": "Ohio, USA; not Pakistan",
+  "database_changed": false
+}

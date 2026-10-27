@@ -1,0 +1,27 @@
+{
+  "project": "SkyRisk Auditor",
+  "report_type": "prototype_recovery_decision_support",
+  "generated_at_utc": "2026-10-23T16:47:56.001250+00:00",
+  "input_file": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\processed\\hazard_indicators_oct20_22.csv",
+  "flight_assessment_file": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\processed\\recovery_flight_assessment_oct20_22.csv",
+  "route_candidate_file": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\processed\\recovery_route_candidates_oct20_22.csv",
+  "flights_processed": 888,
+  "flights_with_relative_hotspots": 270,
+  "total_hotspot_points": 2544,
+  "exploratory_route_candidates": 10176,
+  "dataset_relative_hotspot_percentile": 90,
+  "calculated_hotspot_cutoff": 69.33,
+  "candidate_lateral_offsets_km": [
+    15,
+    25
+  ],
+  "limitations": [
+    "Hotspots are relative percentiles from the available dataset.",
+    "A high relative indicator is not a calibrated safety risk.",
+    "Candidate paths are geometric illustrations, not flyable routes.",
+    "No official airway, FIR, terrain, altitude or clearance validation.",
+    "NOTAM candidates remain unconfirmed unless independently validated.",
+    "Weather observations are grid estimates and not cruise-altitude data.",
+    "No actual diversion or delay outcomes are inferred."
+  ]
+}

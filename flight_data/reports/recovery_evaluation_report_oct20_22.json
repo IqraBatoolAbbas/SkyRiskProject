@@ -1,0 +1,81 @@
+{
+  "project": "SkyRisk Auditor",
+  "generated_at_utc": "2026-10-23T17:22:36.155820+00:00",
+  "input_file": "flight_data\\processed\\recovery_hazard_reevaluation_oct20_22.csv",
+  "input_records": 10176,
+  "candidate_types": [
+    {
+      "candidate_id": "LEFT_CANDIDATE_15KM",
+      "total_records": 2544,
+      "valid_indicator_comparisons": 2534,
+      "indicator_lower_count": 742,
+      "indicator_same_count": 1501,
+      "indicator_higher_count": 291,
+      "indicator_lower_percent": 29.28,
+      "median_proxy_distance_km": 10.472,
+      "median_proxy_time_gap_minutes": 12.553,
+      "mean_indicator_difference": -1.998,
+      "reevaluation_status_counts": {
+        "MISSING_STATUS": 2544
+      }
+    },
+    {
+      "candidate_id": "RIGHT_CANDIDATE_15KM",
+      "total_records": 2544,
+      "valid_indicator_comparisons": 2543,
+      "indicator_lower_count": 740,
+      "indicator_same_count": 1416,
+      "indicator_higher_count": 387,
+      "indicator_lower_percent": 29.1,
+      "median_proxy_distance_km": 9.915,
+      "median_proxy_time_gap_minutes": 14.521,
+      "mean_indicator_difference": -2.209,
+      "reevaluation_status_counts": {
+        "MISSING_STATUS": 2544
+      }
+    },
+    {
+      "candidate_id": "LEFT_CANDIDATE_25KM",
+      "total_records": 2544,
+      "valid_indicator_comparisons": 2534,
+      "indicator_lower_count": 1043,
+      "indicator_same_count": 1190,
+      "indicator_higher_count": 301,
+      "indicator_lower_percent": 41.16,
+      "median_proxy_distance_km": 14.296,
+      "median_proxy_time_gap_minutes": 16.212,
+      "mean_indicator_difference": -3.411,
+      "reevaluation_status_counts": {
+        "MISSING_STATUS": 2544
+      }
+    },
+    {
+      "candidate_id": "RIGHT_CANDIDATE_25KM",
+      "total_records": 2544,
+      "valid_indicator_comparisons": 2541,
+      "indicator_lower_count": 956,
+      "indicator_same_count": 1200,
+      "indicator_higher_count": 385,
+      "indicator_lower_percent": 37.62,
+      "median_proxy_distance_km": 13.66,
+      "median_proxy_time_gap_minutes": 16.448,
+      "mean_indicator_difference": -2.715,
+      "reevaluation_status_counts": {
+        "MISSING_STATUS": 2544
+      }
+    }
+  ],
+  "interpretation": {
+    "purpose": "Exploratory comparison of nearby flight-observation proxies for recovery waypoint candidates.",
+    "safety_validation": "NOT_VALIDATED",
+    "operational_clearance": "NOT_CHECKED",
+    "proxy_is_actual_candidate_weather": false,
+    "full_route_hazard_validation": false,
+    "limitations": [
+      "Nearby observations may belong to different flights.",
+      "Proxy indicator is not a calibrated safety probability.",
+      "Candidate comparisons do not establish a safe route.",
+      "Airway, FIR, altitude, terrain, ATC and NOTAM clearance are not validated by this evaluation."
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "source": "https://adsb.aero/api/v1",
+  "database_changed": false,
+  "full_archive_downloaded": false,
+  "region": "Approximate Pakistan bounding rectangle",
+  "grid_rows": 3,
+  "grid_cols": 3,
+  "tiles": [
+    {
+      "tile_id": "R1_C1",
+      "bounds_lon_lat": [
+        60.0,
+        23.0,
+        66.0,
+        28.0
+      ],
+      "flights_returned": 0,
+      "pages_read": 1,
+      "error": null
+    },
+    {
+      "tile_id": "R1_C2",
+      "bounds_lon_lat": [
+        66.0,
+        23.0,
+        72.0,
+        28.0
+      ],
+      "flights_returned": 0,
+      "pages_read": 1,
+      "error": null
+    },
+    {
+      "tile_id": "R1_C3",
+      "bounds_lon_lat": [
+        72.0,
+        23.0,
+        78.0,
+        28.0
+      ],
+      "flights_returned": 0,
+      "pages_read": 1,
+      "error": null
+    },
+    {
+      "tile_id": "R2_C1",
+      "bounds_lon_lat": [
+        60.0,
+        28.0,
+        66.0,
+        33.0
+      ],
+      "flights_returned": 0,
+      "pages_read": 1,
+      "error": null
+    },
+    {
+      "tile_id": "R2_C2",
+      "bounds_lon_lat": [
+        66.0,
+        28.0,
+        72.0,
+        33.0
+      ],
+      "flights_returned": 0,
+      "pages_read": 1,
+      "error": null
+    },
+    {
+      "tile_id": "R2_C3",
+      "bounds_lon_lat": [
+        72.0,
+        28.0,
+        78.0,
+        33.0
+      ],
+      "flights_returned": 0,
+      "pages_read": 1,
+      "error": null
+    },
+    {
+      "tile_id": "R3_C1",
+      "bounds_lon_lat": [
+        60.0,
+        33.0,
+        66.0,
+        38.0
+      ],
+      "flights_returned": 0,
+      "pages_read": 1,
+      "error": null
+    },
+    {
+      "tile_id": "R3_C2",
+      "bounds_lon_lat": [
+        66.0,
+        33.0,
+        72.0,
+        38.0
+      ],
+      "flights_returned": 0,
+      "pages_read": 1,
+      "error": null
+    },
+    {
+      "tile_id": "R3_C3",
+      "bounds_lon_lat": [
+        72.0,
+        33.0,
+        78.0,
+        38.0
+      ],
+      "flights_returned": 0,
+      "pages_read": 1,
+      "error": null
+    }
+  ],
+  "unique_flights": [],
+  "warnings": [
+    "A bounding rectangle includes areas outside Pakistan.",
+    "Zero results do not prove that no flights operated.",
+    "This is a limited test, not a complete archive export."
+  ],
+  "data_range": {
+    "first_date": "2025-04-21",
+    "last_date": "2026-10-23"
+  },
+  "query_date_utc": "2026-10-23",
+  "unique_flight_count": 0,
+  "total_tile_queries": 9,
+  "tiles_with_errors": 0,
+  "tiles_with_results": 0
+}

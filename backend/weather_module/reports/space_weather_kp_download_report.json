@@ -1,0 +1,20 @@
+{
+  "source": "NOAA Space Weather Prediction Center",
+  "source_url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index.json",
+  "requested_dates_utc": [
+    "2026-10-20",
+    "2026-10-22"
+  ],
+  "retrieved_at_utc": "2026-10-23T15:45:30Z",
+  "total_rows_in_date_range": 0,
+  "valid_numeric_kp_rows": 0,
+  "rows_by_date": {},
+  "csv_file": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\backend\\weather_module\\data\\noaa_kp_2026-10-20_2026-10-22.csv",
+  "raw_response_file": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\backend\\weather_module\\data\\noaa_planetary_k_index_raw.json",
+  "limitations": [
+    "The endpoint may provide recent data rather than a complete archive.",
+    "Check that all requested dates are present before matching.",
+    "Planetary Kp is a global geomagnetic index, not a direct local flight hazard measurement.",
+    "This script does not calculate flight risk."
+  ]
+}

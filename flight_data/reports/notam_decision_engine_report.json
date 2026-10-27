@@ -1,0 +1,22 @@
+{
+  "engine": "evidence_aware_notam_decision_engine_v1",
+  "generated_utc": "2026-10-23T15:00:20.522322+00:00",
+  "trajectory_points": 25608,
+  "unique_flights": 888,
+  "notam_records_after_deduplication": 33,
+  "decision_rows": 845064,
+  "decision_counts": {
+    "UNCONFIRMED_APPLICABILITY": 549418,
+    "REJECTED_TIME": 193214,
+    "INSUFFICIENT_DATA": 102432
+  },
+  "points_with_missing_timestamp": 0,
+  "limitations": [
+    "REJECTED_TIME means only that the point is outside the NOTAM effective interval.",
+    "No verified airport coordinates or official FIR geometry are used by this version.",
+    "Airport-specific NOTAM applicability is not established by time overlap alone.",
+    "No VALIDATED_MATCH is produced without operational evidence.",
+    "The approximate Pakistan bounding box is not an official FIR.",
+    "Input files and PostgreSQL database are not modified."
+  ]
+}

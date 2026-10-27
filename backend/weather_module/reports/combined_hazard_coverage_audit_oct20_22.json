@@ -1,0 +1,51 @@
+{
+  "created_at_utc": "2026-10-23T16:07:35.274818+00:00",
+  "weather_input": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\backend\\weather_module\\processed\\flight_weather_matched_oct20_22.csv",
+  "space_weather_input": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\backend\\weather_module\\processed\\flight_space_weather_matched_oct20_22.csv",
+  "output_csv": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\backend\\weather_module\\processed\\combined_hazard_coverage_audit_oct20_22.csv",
+  "weather_input_rows": 25608,
+  "space_weather_input_rows": 25608,
+  "weather_unique_points": 25608,
+  "space_weather_unique_points": 25608,
+  "common_points_audited": 25608,
+  "weather_only_input_keys": 0,
+  "space_weather_only_input_keys": 0,
+  "duplicate_weather_keys": 0,
+  "duplicate_space_weather_keys": 0,
+  "combined_coverage_counts": {
+    "BOTH_MATCHED": 24153,
+    "NEITHER_MATCHED": 464,
+    "WEATHER_ONLY": 991
+  },
+  "both_sources_match_rate_percent": 94.32,
+  "weather_status_counts": {
+    "MATCHED_GRID_ESTIMATE_NOT_EXACT_FLIGHT_WEATHER": 25144,
+    "NO_GRID_HOUR_WITHIN_30_MIN": 464
+  },
+  "space_weather_status_counts": {
+    "MATCHED_GLOBAL_KP_PRELIMINARY": 24153,
+    "NO_KP_OBSERVATION_WITHIN_90_MIN": 1455
+  },
+  "daily_combined_coverage": {
+    "2026-10-20": {
+      "BOTH_MATCHED": 9264
+    },
+    "2026-10-21": {
+      "BOTH_MATCHED": 7983
+    },
+    "2026-10-22": {
+      "NEITHER_MATCHED": 464,
+      "BOTH_MATCHED": 6906,
+      "WEATHER_ONLY": 991
+    }
+  },
+  "limitations": [
+    "This is a data coverage audit, not a flight-risk calculation.",
+    "Weather values are estimates from 0.5-degree grid-cell centers, not exact aircraft-local observations.",
+    "Surface and 100m winds do not represent cruise-altitude wind.",
+    "Kp is a global geomagnetic index; all downloaded observations currently have preliminary status.",
+    "A data match does not establish hazard impact, delay, diversion, or cancellation.",
+    "Flight points use an approximate geographic bounding box, not verified official FIR boundaries.",
+    "Rows missing from either input are reported separately and are not silently merged."
+  ]
+}

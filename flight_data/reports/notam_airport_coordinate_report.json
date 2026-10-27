@@ -1,0 +1,41 @@
+{
+  "generated_utc": "2026-10-23T15:04:54.420465+00:00",
+  "input_file": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\processed\\notam_decisions_oct20_22.csv",
+  "input_columns": [
+    "altitude_ft",
+    "callsign",
+    "decision",
+    "decision_reason",
+    "flight_id",
+    "icao24",
+    "icao_type",
+    "latitude",
+    "longitude",
+    "notam_effective_end_utc",
+    "notam_effective_start_utc",
+    "notam_kind",
+    "notam_location",
+    "notam_number",
+    "notam_text",
+    "operational_impact",
+    "point_index",
+    "point_timestamp_utc",
+    "segment_index",
+    "spatial_applicability"
+  ],
+  "unique_notam_location_codes": 17,
+  "unique_codes_with_one_coordinate_record": 15,
+  "codes_with_multiple_records": [],
+  "unmatched_location_codes": [
+    "OPKR",
+    "OPLR"
+  ],
+  "coordinate_source": "https://davidmegginson.github.io/ourairports-data/airports.csv",
+  "source_limitations": [
+    "OurAirports is a public, volunteer-maintained dataset.",
+    "Coordinates are reference points, not runway coordinates.",
+    "Coordinate matches do not establish flight operational impact.",
+    "This is not an official Pakistan FIR boundary.",
+    "No flight decisions or database records were changed."
+  ]
+}

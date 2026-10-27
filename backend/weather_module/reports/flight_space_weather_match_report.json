@@ -1,0 +1,31 @@
+{
+  "source": "GFZ Potsdam",
+  "flight_input": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\flight_data\\processed\\pakistan_region_candidate_points_oct20_22.csv",
+  "kp_input": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\backend\\weather_module\\data\\gfz_kp_2026-10-20_2026-10-22.csv",
+  "output_csv": "C:\\Users\\aiqra\\OneDrive\\Desktop\\Final-year-project\\backend\\weather_module\\processed\\flight_space_weather_matched_oct20_22.csv",
+  "total_flight_points": 25608,
+  "valid_kp_observations": 24,
+  "matched_flight_points": 24153,
+  "unmatched_flight_points": 1455,
+  "match_rate_percent": 94.32,
+  "maximum_allowed_gap_minutes": 90.0,
+  "maximum_observed_match_gap_minutes": 90.0,
+  "matched_by_kp_status": {
+    "pre": 24153
+  },
+  "matched_flight_points_by_date_utc": {
+    "2026-10-20": 9264,
+    "2026-10-21": 7983,
+    "2026-10-22": 6906
+  },
+  "unmatched_reasons": {
+    "NO_KP_OBSERVATION_WITHIN_90_MIN": 1455
+  },
+  "limitations": [
+    "Kp is a global geomagnetic index, not a local flight hazard measurement.",
+    "All source observations currently have preliminary status 'pre'.",
+    "Nearest-time matching does not establish causation or operational impact.",
+    "A match does not calculate or validate a flight-risk score.",
+    "The flight points are candidates within an approximate geographic bounding box, not verified official FIR coverage."
+  ]
+}

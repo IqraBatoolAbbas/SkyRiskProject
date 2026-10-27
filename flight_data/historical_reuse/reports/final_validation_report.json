@@ -1,0 +1,8 @@
+{
+  "checks": 6,
+  "failures": 0,
+  "warnings": 2,
+  "trajectory_rows": 14285,
+  "integrated_rows": 14285,
+  "trajectory_key": "flight_id + segment_index + point_index"
+}
